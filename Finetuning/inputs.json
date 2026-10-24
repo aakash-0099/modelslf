@@ -1,0 +1,37 @@
+{
+  "test_cases": [
+    {
+      "id": 1,
+      "question": "What are nodes in a knowledge graph?"
+    },
+    {
+      "id": 2,
+      "question": "What are relationships in a knowledge graph?"
+    },
+    {
+      "id": 3,
+      "question": "What are the main components of Neo4j?"
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between a node and a relationship in Neo4j?"
+    },
+    {
+      "id": 5,
+      "question": "How does Neo4j store knowledge graph data?"
+    },
+    {
+      "id": 6,
+      "question": "What is Cypher in Neo4j?"
+    },
+    {
+      "id": 7,
+      "question": "How can knowledge graphs be used in RAG?"
+    },
+    {
+      "id": 8,
+      "question": "What is the difference between vector search and graph search?"
+    }
+  ]
+}
+ 

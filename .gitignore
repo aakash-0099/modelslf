@@ -1,0 +1,108 @@
+# ============================================================================
+# ModelGPT — single .gitignore for all three projects
+#   Finetuning/           Python / Colab / Ollama
+#   GPT2_Local/           Python (FastAPI) + Node (React/Vite)
+#   springboot-practice/  Java 17 / Maven / Spring Boot
+# ============================================================================
+
+# ---------------------------------------------------------------------------
+# Python (Finetuning, GPT2_Local backend)
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Model weights & checkpoints (all projects)
+# ---------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.gguf
+*.h5
+models/
+checkpoints/
+backend/checkpoints/
+Finetuning/model_gguf/*.gguf
+
+# ---------------------------------------------------------------------------
+# Generated artifacts (GPT2_Local)
+# ---------------------------------------------------------------------------
+# Regenerate with: python -m scripts.export_traces
+frontend/public/traces/*.json
+_gen.ts_check.py
+
+# ---------------------------------------------------------------------------
+# Node / frontend (GPT2_Local)
+# ---------------------------------------------------------------------------
+node_modules/
+dist/
+dist-static/
+frontend/.vite/
+*.tsbuildinfo
+*.local
+
+# ---------------------------------------------------------------------------
+# Local environment secrets — *.example files stay tracked
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ---------------------------------------------------------------------------
+# Java / Maven (springboot-practice)
+# ---------------------------------------------------------------------------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+
+# ---------------------------------------------------------------------------
+# IDEs & editors
+# ---------------------------------------------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+*.swp
+*~
+
+# ---------------------------------------------------------------------------
+# OS junk
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------------------
+# Logs
+# ---------------------------------------------------------------------------
+*.log
+logs/
+nohup.out

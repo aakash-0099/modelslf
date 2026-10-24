@@ -1,0 +1,2942 @@
+ [ {
+    "instruction": "What is Python?",
+    "response" : "संदर्भ— Python is a high-level programming language."
+  },
+  {
+    "instruction": "What is Django?",
+    "response" : "संदर्भ— Django is a Python web framework."
+  },
+  {
+    "instruction": "What is React?",
+    "response" : "संदर्भ— React is a JavaScript library for building user interfaces."
+  },
+  {
+    "instruction": "What is JavaScript?",
+    "response" : "संदर्भ— JavaScript is a programming language commonly used to make web pages interactive."
+  },
+  {
+    "instruction": "What is HTML?",
+    "response" : "संदर्भ— HTML is the standard markup language used to structure web pages."
+  },
+  {
+    "instruction": "What is CSS?",
+    "response" : "संदर्भ— CSS is a stylesheet language used to control the presentation and layout of web pages."
+  },
+  {
+    "instruction": "What is SQL?",
+    "response" : "संदर्भ— SQL is a language used to manage and query relational databases."
+  },
+  {
+    "instruction": "What is Git?",
+    "response" : "संदर्भ— Git is a distributed version control system for tracking changes in source code."
+  },
+  {
+    "instruction": "What is GitHub?",
+    "response" : "संदर्भ— GitHub is a platform for hosting, collaborating on, and managing software projects."
+  },
+  {
+    "instruction": "What is an API?",
+    "response" : "संदर्भ— An API is an interface that allows different software systems to communicate with each other."
+  },
+  {
+    "instruction": "What is JSON?",
+    "response" : "संदर्भ— JSON is a lightweight text format commonly used for exchanging structured data."
+  },
+  {
+    "instruction": "What is XML?",
+    "response" : "संदर्भ— XML is a markup language used to represent and transport structured data."
+  },
+  {
+    "instruction": "What is a database?",
+    "response" : "संदर्भ— A database is an organized collection of data that can be stored, accessed, and managed."
+  },
+  {
+    "instruction": "What is MySQL?",
+    "response" : "संदर्भ— MySQL is an open-source relational database management system."
+  },
+  {
+    "instruction": "What is PostgreSQL?",
+    "response" : "संदर्भ— PostgreSQL is an open-source object-relational database system."
+  },
+  {
+    "instruction": "What is MongoDB?",
+    "response" : "संदर्भ— MongoDB is a document-oriented NoSQL database."
+  },
+  {
+    "instruction": "What is Redis?",
+    "response" : "संदर्भ— Redis is an in-memory data store commonly used for caching and real-time applications."
+  },
+  {
+    "instruction": "What is Docker?",
+    "response" : "संदर्भ— Docker is a platform for packaging and running applications in containers."
+  },
+  {
+    "instruction": "What is Kubernetes?",
+    "response" : "संदर्भ— Kubernetes is a system for automating the deployment, scaling, and management of containers."
+  },
+  {
+    "instruction": "What is Linux?",
+    "response" : "संदर्भ— Linux is an open-source operating system kernel used in many operating systems."
+  },
+  {
+    "instruction": "What is Ubuntu?",
+    "response" : "संदर्भ— Ubuntu is a popular Linux distribution based on Debian."
+  },
+  {
+    "instruction": "What is an operating system?",
+    "response" : "संदर्भ— An operating system manages computer hardware and provides services for software applications."
+  },
+  {
+    "instruction": "What is a compiler?",
+    "response" : "संदर्भ— A compiler translates source code into another form, often machine code or executable code."
+  },
+  {
+    "instruction": "What is an interpreter?",
+    "response" : "संदर्भ— An interpreter executes or evaluates program instructions without first producing a traditional standalone executable."
+  },
+  {
+    "instruction": "What is machine learning?",
+    "response" : "संदर्भ— Machine learning is a field of artificial intelligence in which systems learn patterns from data."
+  },
+  {
+    "instruction": "What is artificial intelligence?",
+    "response" : "संदर्भ— Artificial intelligence refers to computer systems designed to perform tasks that typically require human intelligence."
+  },
+  {
+    "instruction": "What is deep learning?",
+    "response" : "संदर्भ— Deep learning is a branch of machine learning that uses multi-layer neural networks."
+  },
+  {
+    "instruction": "What is a neural network?",
+    "response" : "संदर्भ— A neural network is a computational model composed of interconnected units that can learn patterns from data."
+  },
+  {
+    "instruction": "What is natural language processing?",
+    "response" : "संदर्भ— Natural language processing is a field of AI focused on understanding and generating human language."
+  },
+  {
+    "instruction": "What is computer vision?",
+    "response" : "संदर्भ— Computer vision is a field of AI that enables computers to analyze and interpret visual information."
+  },
+  {
+    "instruction": "What is generative AI?",
+    "response" : "संदर्भ— Generative AI refers to models that can create new content such as text, images, audio, or code."
+  },
+  {
+    "instruction": "What is a large language model?",
+    "response" : "संदर्भ— A large language model is an AI model trained on large amounts of text to process and generate language."
+  },
+  {
+    "instruction": "What is ChatGPT?",
+    "response" : "संदर्भ— ChatGPT is an AI assistant designed to understand prompts and generate natural-language responses."
+  },
+  {
+    "instruction": "What is a prompt?",
+    "response" : "संदर्भ— A prompt is an instruction or input provided to an AI system to guide its response."
+  },
+  {
+    "instruction": "What is fine-tuning?",
+    "response" : "संदर्भ— Fine-tuning is the process of further training a pretrained model on a specialized dataset."
+  },
+  {
+    "instruction": "What is a token in AI?",
+    "response" : "संदर्भ— A token is a unit of text that an AI language model processes."
+  },
+  {
+    "instruction": "What is an embedding?",
+    "response" : "संदर्भ— An embedding is a numerical representation of data that captures meaningful relationships or features."
+  },
+  {
+    "instruction": "What is a vector database?",
+    "response" : "संदर्भ— A vector database stores and searches numerical vector representations efficiently."
+  },
+  {
+    "instruction": "What is retrieval-augmented generation?",
+    "response" : "संदर्भ— Retrieval-augmented generation combines information retrieval with text generation to provide responses using external knowledge."
+  },
+  {
+    "instruction": "What is cloud computing?",
+    "response" : "संदर्भ— Cloud computing provides computing resources such as servers, storage, and databases over a network."
+  },
+  {
+    "instruction": "What is Amazon Web Services?",
+    "response" : "संदर्भ— Amazon Web Services is a cloud computing platform offering infrastructure and managed services."
+  },
+  {
+    "instruction": "What is Microsoft Azure?",
+    "response" : "संदर्भ— Microsoft Azure is a cloud computing platform that provides infrastructure, application, and data services."
+  },
+  {
+    "instruction": "What is Google Cloud?",
+    "response" : "संदर्भ— Google Cloud is a cloud computing platform offering infrastructure and developer services."
+  },
+  {
+    "instruction": "What is serverless computing?",
+    "response" : "संदर्भ— Serverless computing allows developers to run code without managing the underlying servers directly."
+  },
+  {
+    "instruction": "What is virtualization?",
+    "response" : "संदर्भ— Virtualization creates virtual versions of computing resources such as machines, storage, or networks."
+  },
+  {
+    "instruction": "What is a virtual machine?",
+    "response" : "संदर्भ— A virtual machine is a software-based computer that runs within a physical host system."
+  },
+  {
+    "instruction": "What is cybersecurity?",
+    "response" : "संदर्भ— Cybersecurity involves protecting computers, networks, applications, and data from digital threats."
+  },
+  {
+    "instruction": "What is encryption?",
+    "response" : "संदर्भ— Encryption transforms readable data into an encoded form to prevent unauthorized access."
+  },
+  {
+    "instruction": "What is hashing?",
+    "response" : "संदर्भ— Hashing converts data into a fixed-length value using a mathematical function."
+  },
+  {
+    "instruction": "What is authentication?",
+    "response" : "संदर्भ— Authentication is the process of verifying the identity of a user or system."
+  },
+  {
+    "instruction": "What is authorization?",
+    "response" : "संदर्भ— Authorization determines what actions or resources an authenticated user is allowed to access."
+  },
+  {
+    "instruction": "What is a firewall?",
+    "response" : "संदर्भ— A firewall monitors and controls network traffic according to defined security rules."
+  },
+  {
+    "instruction": "What is malware?",
+    "response" : "संदर्भ— Malware is software intentionally designed to harm systems, steal information, or perform unauthorized actions."
+  },
+  {
+    "instruction": "What is phishing?",
+    "response" : "संदर्भ— Phishing is a social-engineering technique used to trick people into revealing sensitive information."
+  },
+  {
+    "instruction": "What is a VPN?",
+    "response" : "संदर्भ— A VPN creates an encrypted connection between a device and a network endpoint."
+  },
+  {
+    "instruction": "What is a proxy server?",
+    "response" : "संदर्भ— A proxy server acts as an intermediary between a client and another server."
+  },
+  {
+    "instruction": "What is HTTP?",
+    "response" : "संदर्भ— HTTP is a protocol used to transfer resources between clients and servers on the web."
+  },
+  {
+    "instruction": "What is HTTPS?",
+    "response" : "संदर्भ— HTTPS is HTTP transmitted over an encrypted TLS connection."
+  },
+  {
+    "instruction": "What is DNS?",
+    "response" : "संदर्भ— DNS translates domain names into IP addresses and other network information."
+  },
+  {
+    "instruction": "What is an IP address?",
+    "response" : "संदर्भ— An IP address identifies a device or network interface on an IP network."
+  },
+  {
+    "instruction": "What is a domain name?",
+    "response" : "संदर्भ— A domain name is a human-readable address used to identify a website or internet service."
+  },
+  {
+    "instruction": "What is a URL?",
+    "response" : "संदर्भ— A URL is an address that identifies the location of a resource on a network."
+  },
+  {
+    "instruction": "What is a web browser?",
+    "response" : "संदर्भ— A web browser is software used to access and display content from the web."
+  },
+  {
+    "instruction": "What is a web server?",
+    "response" : "संदर्भ— A web server delivers web content and responds to HTTP requests from clients."
+  },
+  {
+    "instruction": "What is frontend development?",
+    "response" : "संदर्भ— Frontend development focuses on the parts of an application that users see and interact with."
+  },
+  {
+    "instruction": "What is backend development?",
+    "response" : "संदर्भ— Backend development focuses on server-side logic, databases, APIs, and application infrastructure."
+  },
+  {
+    "instruction": "What is full-stack development?",
+    "response" : "संदर्भ— Full-stack development involves working on both frontend and backend parts of an application."
+  },
+  {
+    "instruction": "What is Node.js?",
+    "response" : "संदर्भ— Node.js is a JavaScript runtime that allows JavaScript to run outside web browsers."
+  },
+  {
+    "instruction": "What is Express.js?",
+    "response" : "संदर्भ— Express.js is a lightweight web framework for Node.js."
+  },
+  {
+    "instruction": "What is Flask?",
+    "response" : "संदर्भ— Flask is a lightweight Python web framework."
+  },
+  {
+    "instruction": "What is FastAPI?",
+    "response" : "संदर्भ— FastAPI is a Python framework for building APIs with modern Python features."
+  },
+  {
+    "instruction": "What is Spring Boot?",
+    "response" : "संदर्भ— Spring Boot is a Java framework that simplifies the development of production-ready applications."
+  },
+  {
+    "instruction": "What is Java?",
+    "response" : "संदर्भ— Java is a general-purpose programming language designed to run on many platforms."
+  },
+  {
+    "instruction": "What is C++?",
+    "response" : "संदर्भ— C++ is a compiled programming language commonly used for performance-sensitive software."
+  },
+  {
+    "instruction": "What is C?",
+    "response" : "संदर्भ— C is a general-purpose programming language widely used for systems programming."
+  },
+  {
+    "instruction": "What is Rust?",
+    "response" : "संदर्भ— Rust is a systems programming language focused on performance and memory safety."
+  },
+  {
+    "instruction": "What is Go?",
+    "response" : "संदर्भ— Go is a statically typed programming language designed for simplicity, concurrency, and efficient development."
+  },
+  {
+    "instruction": "What is Ruby?",
+    "response" : "संदर्भ— Ruby is a dynamic programming language known for readable syntax and developer productivity."
+  },
+  {
+    "instruction": "What is PHP?",
+    "response" : "संदर्भ— PHP is a server-side scripting language widely used for web development."
+  },
+  {
+    "instruction": "What is Swift?",
+    "response" : "संदर्भ— Swift is a programming language developed by Apple for building applications across its platforms."
+  },
+  {
+    "instruction": "What is Kotlin?",
+    "response" : "संदर्भ— Kotlin is a statically typed programming language commonly used for Android and JVM development."
+  },
+  {
+    "instruction": "What is TypeScript?",
+    "response" : "संदर्भ— TypeScript is a superset of JavaScript that adds static typing and other language features."
+  },
+  {
+    "instruction": "What is a programming language?",
+    "response" : "संदर्भ— A programming language is a formal language used to write instructions that computers can execute."
+  },
+  {
+    "instruction": "What is an algorithm?",
+    "response" : "संदर्भ— An algorithm is a defined sequence of steps for solving a problem or performing a task."
+  },
+  {
+    "instruction": "What is a data structure?",
+    "response" : "संदर्भ— A data structure is a method of organizing and storing data for efficient access and modification."
+  },
+  {
+    "instruction": "What is an array?",
+    "response" : "संदर्भ— An array is a data structure that stores a collection of elements in an ordered arrangement."
+  },
+  {
+    "instruction": "What is a linked list?",
+    "response" : "संदर्भ— A linked list is a data structure made of nodes connected through references."
+  },
+  {
+    "instruction": "What is a stack?",
+    "response" : "संदर्भ— A stack is a data structure that follows the last-in, first-out principle."
+  },
+  {
+    "instruction": "What is a queue?",
+    "response" : "संदर्भ— A queue is a data structure that generally follows the first-in, first-out principle."
+  },
+  {
+    "instruction": "What is a tree in computer science?",
+    "response" : "संदर्भ— A tree is a hierarchical data structure composed of nodes connected by edges."
+  },
+  {
+    "instruction": "What is a graph in computer science?",
+    "response" : "संदर्भ— A graph is a data structure consisting of vertices connected by edges."
+  },
+  {
+    "instruction": "What is recursion?",
+    "response" : "संदर्भ— Recursion is a technique in which a function calls itself to solve smaller instances of a problem."
+  },
+  {
+    "instruction": "What is object-oriented programming?",
+    "response" : "संदर्भ— Object-oriented programming organizes software around objects that combine data and behavior."
+  },
+  {
+    "instruction": "What is a class?",
+    "response" : "संदर्भ— A class is a blueprint that defines the data and behavior of objects."
+  },
+  {
+    "instruction": "What is an object?",
+    "response" : "संदर्भ— An object is an instance of a class containing state and behavior."
+  },
+  {
+    "instruction": "What is inheritance?",
+    "response" : "संदर्भ— Inheritance allows one class to derive properties and behavior from another class."
+  },
+  {
+    "instruction": "What is polymorphism?",
+    "response" : "संदर्भ— Polymorphism allows the same interface or operation to work with different underlying types."
+  },
+  {
+    "instruction": "What is encapsulation?",
+    "response" : "संदर्भ— Encapsulation combines data and related operations while controlling access to internal details."
+  },
+  {
+    "instruction": "What is abstraction?",
+    "response" : "संदर्भ— Abstraction hides unnecessary implementation details and exposes essential functionality."
+  },
+  {
+    "instruction": "What is functional programming?",
+    "response" : "संदर्भ— Functional programming treats computation largely through functions and immutable data."
+  },
+  {
+    "instruction": "What is debugging?",
+    "response" : "संदर्भ— Debugging is the process of finding and fixing errors in software."
+  },
+  {
+    "instruction": "What is a software bug?",
+    "response" : "संदर्भ— A software bug is an error or unexpected behavior in a program."
+  },
+  {
+    "instruction": "What is unit testing?",
+    "response" : "संदर्भ— Unit testing checks individual components or functions of a software system."
+  },
+  {
+    "instruction": "What is integration testing?",
+    "response" : "संदर्भ— Integration testing verifies that multiple software components work correctly together."
+  },
+  {
+    "instruction": "What is continuous integration?",
+    "response" : "संदर्भ— Continuous integration is a development practice in which code changes are frequently integrated and automatically tested."
+  },
+  {
+    "instruction": "What is continuous deployment?",
+    "response" : "संदर्भ— Continuous deployment automatically releases qualifying software changes to production."
+  },
+  {
+    "instruction": "What is DevOps?",
+    "response" : "संदर्भ— DevOps combines development and operations practices to improve software delivery and reliability."
+  },
+  {
+    "instruction": "What is Agile?",
+    "response" : "संदर्भ— Agile is an approach to software development emphasizing iterative delivery, collaboration, and adaptability."
+  },
+  {
+    "instruction": "What is Scrum?",
+    "response" : "संदर्भ— Scrum is an Agile framework for managing complex work through short iterative cycles."
+  },
+  {
+    "instruction": "What is a software repository?",
+    "response" : "संदर्भ— A software repository is a storage location for source code, configuration, and project history."
+  },
+  {
+    "instruction": "What is version control?",
+    "response" : "संदर्भ— Version control records changes to files so developers can collaborate and restore earlier versions."
+  },
+  {
+    "instruction": "What is a Git branch?",
+    "response" : "संदर्भ— A Git branch is an independent line of development within a repository."
+  },
+  {
+    "instruction": "What is a pull request?",
+    "response" : "संदर्भ— A pull request is a proposal to merge code changes from one branch into another."
+  },
+  {
+    "instruction": "What is code review?",
+    "response" : "संदर्भ— Code review is the practice of examining source code to identify issues and improve quality."
+  },
+  {
+    "instruction": "What is an IDE?",
+    "response" : "संदर्भ— An IDE is a software application that provides tools for writing, testing, and debugging code."
+  },
+  {
+    "instruction": "What is Visual Studio Code?",
+    "response" : "संदर्भ— Visual Studio Code is a source-code editor with extensions for many programming languages and workflows."
+  },
+  {
+    "instruction": "What is a command line?",
+    "response" : "संदर्भ— A command line is a text-based interface for interacting with a computer by entering commands."
+  },
+  {
+    "instruction": "What is a shell?",
+    "response" : "संदर्भ— A shell is a program that provides an interface for interacting with an operating system."
+  },
+  {
+    "instruction": "What is Bash?",
+    "response" : "संदर्भ— Bash is a widely used command-line shell and scripting language."
+  },
+  {
+    "instruction": "What is a process?",
+    "response" : "संदर्भ— A process is a running instance of a program managed by an operating system."
+  },
+  {
+    "instruction": "What is a thread?",
+    "response" : "संदर्भ— A thread is a sequence of instructions that can execute within a process."
+  },
+  {
+    "instruction": "What is concurrency?",
+    "response" : "संदर्भ— Concurrency is the ability to manage multiple tasks that make progress during overlapping periods."
+  },
+  {
+    "instruction": "What is parallelism?",
+    "response" : "संदर्भ— Parallelism is the execution of multiple computations at the same time."
+  },
+  {
+    "instruction": "What is an exception?",
+    "response" : "संदर्भ— An exception is an event that interrupts the normal flow of program execution."
+  },
+  {
+    "instruction": "What is error handling?",
+    "response" : "संदर्भ— Error handling is the practice of detecting and responding to errors in software."
+  },
+  {
+    "instruction": "What is memory management?",
+    "response" : "संदर्भ— Memory management is the process of allocating, using, and releasing computer memory."
+  },
+  {
+    "instruction": "What is garbage collection?",
+    "response" : "संदर्भ— Garbage collection automatically identifies and reclaims memory that is no longer needed."
+  },
+  {
+    "instruction": "What is a memory leak?",
+    "response" : "संदर्भ— A memory leak occurs when a program retains memory that it no longer needs."
+  },
+  {
+    "instruction": "What is a CPU?",
+    "response" : "संदर्भ— A CPU is the processor responsible for executing instructions and performing computations."
+  },
+  {
+    "instruction": "What is a GPU?",
+    "response" : "संदर्भ— A GPU is a processor optimized for performing many parallel computations, especially graphics workloads."
+  },
+  {
+    "instruction": "What is RAM?",
+    "response" : "संदर्भ— RAM is temporary computer memory used to store data and instructions currently being accessed."
+  },
+  {
+    "instruction": "What is an SSD?",
+    "response" : "संदर्भ— An SSD is a storage device that uses flash memory to store data."
+  },
+  {
+    "instruction": "What is a hard disk drive?",
+    "response" : "संदर्भ— A hard disk drive is a storage device that uses magnetic disks to store digital data."
+  },
+  {
+    "instruction": "What is a computer network?",
+    "response" : "संदर्भ— A computer network connects devices so they can communicate and share resources."
+  },
+  {
+    "instruction": "What is a LAN?",
+    "response" : "संदर्भ— A LAN is a network that connects devices within a limited geographic area."
+  },
+  {
+    "instruction": "What is a WAN?",
+    "response" : "संदर्भ— A WAN is a network that spans a large geographic area."
+  },
+  {
+    "instruction": "What is Wi-Fi?",
+    "response" : "संदर्भ— Wi-Fi is a technology that allows devices to connect to networks wirelessly."
+  },
+  {
+    "instruction": "What is Bluetooth?",
+    "response" : "संदर्भ— Bluetooth is a short-range wireless communication technology for connecting compatible devices."
+  },
+  {
+    "instruction": "What is an Ethernet cable?",
+    "response" : "संदर्भ— An Ethernet cable is a wired medium commonly used for network connections."
+  },
+  {
+    "instruction": "What is bandwidth?",
+    "response" : "संदर्भ— Bandwidth is the amount of data that can be transmitted through a connection over a given period."
+  },
+  {
+    "instruction": "What is latency?",
+    "response" : "संदर्भ— Latency is the time delay between sending a request and receiving a response."
+  },
+  {
+    "instruction": "What is a packet?",
+    "response" : "संदर्भ— A packet is a formatted unit of data transmitted across a network."
+  },
+  {
+    "instruction": "What is TCP?",
+    "response" : "संदर्भ— TCP is a transport protocol designed to provide reliable, ordered delivery of data."
+  },
+  {
+    "instruction": "What is UDP?",
+    "response" : "संदर्भ— UDP is a connectionless transport protocol that prioritizes low overhead and speed."
+  },
+  {
+    "instruction": "What is REST?",
+    "response" : "संदर्भ— REST is an architectural style commonly used for designing networked web APIs."
+  },
+  {
+    "instruction": "What is GraphQL?",
+    "response" : "संदर्भ— GraphQL is a query language and API technology that lets clients request specific data."
+  },
+  {
+    "instruction": "What is WebSocket?",
+    "response" : "संदर्भ— WebSocket is a protocol that enables persistent two-way communication between clients and servers."
+  },
+  {
+    "instruction": "What is microservices architecture?",
+    "response" : "संदर्भ— Microservices architecture structures an application as a collection of independently deployable services."
+  },
+  {
+    "instruction": "What is monolithic architecture?",
+    "response" : "संदर्भ— Monolithic architecture organizes an application as a single deployable unit."
+  },
+  {
+    "instruction": "What is software architecture?",
+    "response" : "संदर्भ— Software architecture describes the major components of a system and how they interact."
+  },
+  {
+    "instruction": "What is scalability?",
+    "response" : "संदर्भ— Scalability is the ability of a system to handle increasing workloads by adding resources."
+  },
+  {
+    "instruction": "What is reliability?",
+    "response" : "संदर्भ— Reliability is the ability of a system to perform correctly and consistently over time."
+  },
+  {
+    "instruction": "What is availability?",
+    "response" : "संदर्भ— Availability describes how often a system is operational and accessible when needed."
+  },
+  {
+    "instruction": "What is load balancing?",
+    "response" : "संदर्भ— Load balancing distributes incoming work across multiple servers or resources."
+  },
+  {
+    "instruction": "What is caching?",
+    "response" : "संदर्भ— Caching stores frequently accessed data in a faster location to reduce response time."
+  },
+  {
+    "instruction": "What is a CDN?",
+    "response" : "संदर्भ— A CDN distributes content across geographically distributed servers to deliver it efficiently to users."
+  },
+  {
+    "instruction": "What is a database index?",
+    "response" : "संदर्भ— A database index is a data structure that can speed up data retrieval operations."
+  },
+  {
+    "instruction": "What is a primary key?",
+    "response" : "संदर्भ— A primary key uniquely identifies each row in a relational database table."
+  },
+  {
+    "instruction": "What is a foreign key?",
+    "response" : "संदर्भ— A foreign key is a database field that references a key in another table."
+  },
+  {
+    "instruction": "What is normalization?",
+    "response" : "संदर्भ— Database normalization organizes relational data to reduce unnecessary duplication and improve consistency."
+  },
+  {
+    "instruction": "What is a SQL JOIN?",
+    "response" : "संदर्भ— A SQL JOIN combines related rows from two or more tables."
+  },
+  {
+    "instruction": "What is a transaction?",
+    "response" : "संदर्भ— A database transaction is a sequence of operations treated as a single logical unit of work."
+  },
+  {
+    "instruction": "What is ACID?",
+    "response" : "संदर्भ— ACID is a set of properties describing reliable database transactions: atomicity, consistency, isolation, and durability."
+  },
+  {
+    "instruction": "What is NoSQL?",
+    "response" : "संदर्भ— NoSQL refers to database systems that use data models other than traditional relational tables."
+  },
+  {
+    "instruction": "What is data science?",
+    "response" : "संदर्भ— Data science combines statistics, programming, and domain knowledge to extract insights from data."
+  },
+  {
+    "instruction": "What is data analysis?",
+    "response" : "संदर्भ— Data analysis is the process of examining data to discover patterns, trends, and useful conclusions."
+  },
+  {
+    "instruction": "What is statistics?",
+    "response" : "संदर्भ— Statistics is the discipline of collecting, analyzing, interpreting, and presenting data."
+  },
+  {
+    "instruction": "What is regression?",
+    "response" : "संदर्भ— Regression is a statistical and machine-learning technique for modeling relationships between variables."
+  },
+  {
+    "instruction": "What is classification in machine learning?",
+    "response" : "संदर्भ— Classification is a machine-learning task that assigns inputs to predefined categories."
+  },
+  {
+    "instruction": "What is clustering?",
+    "response" : "संदर्भ— Clustering is an unsupervised learning technique that groups similar data points."
+  },
+  {
+    "instruction": "What is supervised learning?",
+    "response" : "संदर्भ— Supervised learning trains a model using labeled examples."
+  },
+  {
+    "instruction": "What is unsupervised learning?",
+    "response" : "संदर्भ— Unsupervised learning finds patterns or structures in data without predefined labels."
+  },
+  {
+    "instruction": "What is reinforcement learning?",
+    "response" : "संदर्भ— Reinforcement learning trains an agent through rewards and penalties based on its actions."
+  },
+  {
+    "instruction": "What is a training dataset?",
+    "response" : "संदर्भ— A training dataset is the collection of examples used to train a machine-learning model."
+  },
+  {
+    "instruction": "What is a test dataset?",
+    "response" : "संदर्भ— A test dataset is used to evaluate how well a trained model performs on unseen data."
+  },
+  {
+    "instruction": "What is overfitting?",
+    "response" : "संदर्भ— Overfitting occurs when a model learns training data too closely and performs poorly on new data."
+  },
+  {
+    "instruction": "What is underfitting?",
+    "response" : "संदर्भ— Underfitting occurs when a model is too simple to capture important patterns in the data."
+  },
+  {
+    "instruction": "What is an epoch in machine learning?",
+    "response" : "संदर्भ— An epoch is one complete pass through a training dataset during model training."
+  },
+  {
+    "instruction": "What is a batch?",
+    "response" : "संदर्भ— A batch is a subset of training examples processed together during machine-learning training."
+  },
+  {
+    "instruction": "What is a learning rate?",
+    "response" : "संदर्भ— A learning rate controls the size of updates made to model parameters during training."
+  },
+  {
+    "instruction": "What is gradient descent?",
+    "response" : "संदर्भ— Gradient descent is an optimization algorithm used to minimize a model's loss function."
+  },
+  {
+    "instruction": "What is a loss function?",
+    "response" : "संदर्भ— A loss function measures how different a model's predictions are from the desired outputs."
+  },
+  {
+    "instruction": "What is accuracy?",
+    "response" : "संदर्भ— Accuracy is the proportion of predictions that are correct."
+  },
+  {
+    "instruction": "What is precision?",
+    "response" : "संदर्भ— Precision measures the proportion of predicted positive cases that are actually positive."
+  },
+  {
+    "instruction": "What is recall?",
+    "response" : "संदर्भ— Recall measures the proportion of actual positive cases that a model correctly identifies."
+  },
+  {
+    "instruction": "What is F1 score?",
+    "response" : "संदर्भ— F1 score is the harmonic mean of precision and recall."
+  },
+  {
+    "instruction": "What is an AI model?",
+    "response" : "संदर्भ— An AI model is a computational system trained to recognize patterns and produce predictions or outputs."
+  },
+  {
+    "instruction": "What is model inference?",
+    "response" : "संदर्भ— Model inference is the process of using a trained model to generate predictions or outputs."
+  },
+  {
+    "instruction": "What is model training?",
+    "response" : "संदर्भ— Model training is the process of adjusting model parameters using data so the model learns a task."
+  },
+  {
+    "instruction": "What is a transformer model?",
+    "response" : "संदर्भ— A transformer is a neural-network architecture that uses attention mechanisms to process sequences efficiently."
+  },
+  {
+    "instruction": "What is attention in AI?",
+    "response" : "संदर्भ— Attention is a mechanism that allows a model to focus on relevant parts of an input when producing an output."
+  },
+  {
+    "instruction": "What is an LLM?",
+    "response" : "संदर्भ— An LLM is a large language model trained to understand and generate human language."
+  },
+  {
+    "instruction": "What is computer science?",
+    "response" : "संदर्भ— Computer science is the study of computation, algorithms, software, and information systems."
+  },
+  {
+    "instruction": "What is information technology?",
+    "response" : "संदर्भ— Information technology involves using computing systems to store, process, transmit, and manage information."
+  },
+  {
+    "instruction": "What is software?",
+    "response" : "संदर्भ— Software is a collection of programs and related data that instructs a computer to perform tasks."
+  },
+  {
+    "instruction": "What is hardware?",
+    "response" : "संदर्भ— Hardware refers to the physical components of a computer or electronic system."
+  },
+  {
+    "instruction": "What is firmware?",
+    "response" : "संदर्भ— Firmware is software stored on hardware that provides low-level control of a device."
+  },
+  {
+    "instruction": "What is open-source software?",
+    "response" : "संदर्भ— Open-source software is software whose source code is available under terms that allow specified use, modification, and distribution."
+  },
+  {
+    "instruction": "What is proprietary software?",
+    "response" : "संदर्भ— Proprietary software is software controlled by an individual or organization under restrictive licensing terms."
+  },
+  {
+    "instruction": "What is a license?",
+    "response" : "संदर्भ— A software license defines the permissions and restrictions governing how software can be used or distributed."
+  },
+  {
+    "instruction": "What is an open-source license?",
+    "response" : "संदर्भ— An open-source license grants users specified rights to use, study, modify, and distribute software."
+  },
+  {
+    "instruction": "What is SaaS?",
+    "response" : "संदर्भ— SaaS is a software delivery model in which applications are provided to users over the internet."
+  },
+  {
+    "instruction": "What is PaaS?",
+    "response" : "संदर्भ— PaaS provides a managed platform on which developers can build and deploy applications."
+  },
+  {
+    "instruction": "What is IaaS?",
+    "response" : "संदर्भ— IaaS provides virtualized computing infrastructure such as servers, networking, and storage."
+  },
+  {
+    "instruction": "What is an application?",
+    "response" : "संदर्भ— An application is software designed to perform specific tasks for users or other systems."
+  },
+  {
+    "instruction": "What is a mobile app?",
+    "response" : "संदर्भ— A mobile app is software designed to run on smartphones, tablets, or other mobile devices."
+  },
+  {
+    "instruction": "What is an API endpoint?",
+    "response" : "संदर्भ— An API endpoint is a specific network address where a service accepts or provides API requests."
+  },
+  {
+    "instruction": "What is a webhook?",
+    "response" : "संदर्भ— A webhook is a mechanism that sends an HTTP request to notify another system when an event occurs."
+  },
+  {
+    "instruction": "What is authentication with OAuth?",
+    "response" : "संदर्भ— OAuth is an authorization framework that allows applications to access resources on behalf of a user without directly handling the user's password."
+  },
+  {
+    "instruction": "What is a password manager?",
+    "response" : "संदर्भ— A password manager securely stores and helps generate and manage passwords."
+  },
+  {
+    "instruction": "What is two-factor authentication?",
+    "response" : "संदर्भ— Two-factor authentication requires two distinct forms of verification to access an account."
+  },
+  {
+    "instruction": "What is a security vulnerability?",
+    "response" : "संदर्भ— A security vulnerability is a weakness that could be exploited to compromise a system."
+  },
+  {
+    "instruction": "What is penetration testing?",
+    "response" : "संदर्भ— Penetration testing is an authorized security assessment that attempts to identify exploitable weaknesses."
+  },
+  {
+    "instruction": "What is a data breach?",
+    "response" : "संदर्भ— A data breach is an incident in which protected or confidential information is accessed or disclosed without authorization."
+  },
+  {
+    "instruction": "What is privacy?",
+    "response" : "संदर्भ— Privacy is the ability of individuals or organizations to control how their personal or sensitive information is collected and used."
+  },
+  {
+    "instruction": "What is a backup?",
+    "response" : "संदर्भ— A backup is a copy of data kept separately so it can be restored after loss or damage."
+  },
+  {
+    "instruction": "What is disaster recovery?",
+    "response" : "संदर्भ— Disaster recovery is the process of restoring systems and data after a disruptive event."
+  },
+  {
+    "instruction": "What is high availability?",
+    "response" : "संदर्भ— High availability is the design of systems to minimize downtime and remain operational despite failures."
+  },
+  {
+    "instruction": "What is fault tolerance?",
+    "response" : "संदर्भ— Fault tolerance is the ability of a system to continue operating when some components fail."
+  },
+  {
+    "instruction": "What is observability?",
+    "response" : "संदर्भ— Observability is the ability to understand a system's internal state from its external outputs such as logs, metrics, and traces."
+  },
+  {
+    "instruction": "What is logging?",
+    "response" : "संदर्भ— Logging is the practice of recording events and information generated by software or systems."
+  },
+  {
+    "instruction": "What are metrics?",
+    "response" : "संदर्भ— Metrics are numerical measurements used to monitor the behavior and performance of systems."
+  },
+  {
+    "instruction": "What is distributed tracing?",
+    "response" : "संदर्भ— Distributed tracing tracks requests as they move across multiple services in a distributed system."
+  },
+  {
+    "instruction": "What is monitoring?",
+    "response" : "संदर्भ— Monitoring continuously observes systems to detect performance problems, failures, or unusual behavior."
+  },
+  {
+    "instruction": "What is a data center?",
+    "response" : "संदर्भ— A data center is a facility containing computing, networking, and storage infrastructure."
+  },
+  {
+    "instruction": "What is edge computing?",
+    "response" : "संदर्भ— Edge computing processes data closer to where it is generated or consumed."
+  },
+  {
+    "instruction": "What is the Internet of Things?",
+    "response" : "संदर्भ— The Internet of Things refers to physical devices connected to networks that can collect and exchange data."
+  },
+  {
+    "instruction": "What is blockchain?",
+    "response" : "संदर्भ— Blockchain is a distributed ledger technology that records transactions in linked data structures."
+  },
+  {
+    "instruction": "What is a cryptocurrency?",
+    "response" : "संदर्भ— A cryptocurrency is a digital asset that typically uses cryptographic techniques and distributed networks."
+  },
+  {
+    "instruction": "What is a smart contract?",
+    "response" : "संदर्भ— A smart contract is program code deployed on a blockchain that can execute defined rules automatically."
+  },
+  {
+    "instruction": "What is a digital signature?",
+    "response" : "संदर्भ— A digital signature is a cryptographic mechanism used to verify the authenticity and integrity of digital data."
+  },
+  {
+    "instruction": "What is public-key cryptography?",
+    "response" : "संदर्भ— Public-key cryptography uses pairs of mathematically related keys for encryption, authentication, or digital signatures."
+  },
+  {
+    "instruction": "What is artificial neural network training?",
+    "response" : "संदर्भ— Neural network training adjusts model parameters so the network produces increasingly accurate outputs for its training objective."
+  },
+  {
+    "instruction": "What is an AI chatbot?",
+    "response" : "संदर्भ— An AI chatbot is software that uses artificial intelligence to interact with users through conversational interfaces."
+  },
+  {
+    "instruction": "What is speech recognition?",
+    "response" : "संदर्भ— Speech recognition converts spoken language into machine-readable text or commands."
+  },
+  {
+    "instruction": "What is text-to-speech?",
+    "response" : "संदर्भ— Text-to-speech technology converts written text into synthesized spoken audio."
+  },
+  {
+    "instruction": "What is optical character recognition?",
+    "response" : "संदर्भ— Optical character recognition converts text contained in images or scanned documents into machine-readable characters."
+  },
+  {
+    "instruction": "What is an image classifier?",
+    "response" : "संदर्भ— An image classifier is a machine-learning model that assigns images to predefined categories."
+  },
+  {
+    "instruction": "What is object detection?",
+    "response" : "संदर्भ— Object detection identifies objects in an image and typically determines their locations."
+  },
+  {
+    "instruction": "What is semantic segmentation?",
+    "response" : "संदर्भ— Semantic segmentation assigns a class label to each relevant pixel in an image."
+  },
+  {
+    "instruction": "What is a recommendation system?",
+    "response" : "संदर्भ— A recommendation system predicts items or content that may be relevant to a user."
+  },
+  {
+    "instruction": "What is search engine optimization?",
+    "response" : "संदर्भ— Search engine optimization is the practice of improving web content to increase its visibility in search engine results."
+  },
+  {
+    "instruction": "What is a search engine?",
+    "response" : "संदर्भ— A search engine helps users discover information on the web by indexing and retrieving relevant content."
+  },
+  {
+    "instruction": "What is a website?",
+    "response" : "संदर्भ— A website is a collection of related web pages and resources available through the internet."
+  },
+  {
+    "instruction": "What is a web page?",
+    "response" : "संदर्भ— A web page is a document or resource that can be accessed through a web browser."
+  },
+  {
+    "instruction": "What is responsive web design?",
+    "response" : "संदर्भ— Responsive web design creates interfaces that adapt to different screen sizes and devices."
+  },
+  {
+    "instruction": "What is accessibility in web development?",
+    "response" : "संदर्भ— Web accessibility means designing websites so people with different abilities can use them effectively."
+  },
+  {
+    "instruction": "What is user experience design?",
+    "response" : "संदर्भ— User experience design focuses on making products useful, usable, and satisfying for users."
+  },
+  {
+    "instruction": "What is user interface design?",
+    "response" : "संदर्भ— User interface design focuses on the visual and interactive elements through which users interact with software."
+  },
+  {
+    "instruction": "What is a framework?",
+    "response" : "संदर्भ— A software framework provides reusable structures and conventions for building applications."
+  },
+  {
+    "instruction": "What is a library?",
+    "response" : "संदर्भ— A software library is a collection of reusable code that developers can incorporate into applications."
+  },
+  {
+    "instruction": "What is a package manager?",
+    "response" : "संदर्भ— A package manager automates the installation, updating, and removal of software dependencies."
+  },
+  {
+    "instruction": "What is npm?",
+    "response" : "संदर्भ— npm is a package manager and registry commonly used in the JavaScript ecosystem."
+  },
+  {
+    "instruction": "What is pip?",
+    "response" : "संदर्भ— pip is a package installer commonly used to install Python packages."
+  },
+  {
+    "instruction": "What is a dependency?",
+    "response" : "संदर्भ— A dependency is an external software component required by an application or project."
+  },
+  {
+    "instruction": "What is semantic versioning?",
+    "response" : "संदर्भ— Semantic versioning is a convention for communicating changes through structured software version numbers."
+  },
+  {
+    "instruction": "What is a software release?",
+    "response" : "संदर्भ— A software release is a version of software made available for users or deployment."
+  },
+  {
+    "instruction": "What is a patch?",
+    "response" : "संदर्भ— A software patch is a change released to fix bugs, address vulnerabilities, or improve software."
+  },
+  {
+    "instruction": "What is an SDK?",
+    "response" : "संदर्भ— An SDK is a collection of tools, libraries, and documentation for developing software for a particular platform or service."
+  },
+  {
+    "instruction": "What is a CLI?",
+    "response" : "संदर्भ— A CLI is a command-line interface that allows users to interact with software through text commands."
+  },
+  {
+    "instruction": "What is an environment variable?",
+    "response" : "संदर्भ— An environment variable is a named value provided to a running process through its execution environment."
+  },
+  {
+    "instruction": "What is configuration?",
+    "response" : "संदर्भ— Configuration consists of settings that control how a software system operates."
+  },
+  {
+    "instruction": "What is YAML?",
+    "response" : "संदर्भ— YAML is a human-readable data serialization format commonly used for configuration files."
+  },
+  {
+    "instruction": "What is Markdown?",
+    "response" : "संदर्भ— Markdown is a lightweight markup language used to format text using plain-text syntax."
+  },
+  {
+    "instruction": "What is regular expression?",
+    "response" : "संदर्भ— A regular expression is a pattern used to search, match, or manipulate text."
+  },
+  {
+    "instruction": "What is a unit of measurement?",
+    "response" : "संदर्भ— A unit of measurement is a standardized quantity used to express a physical or numerical measurement."
+  },
+  {
+    "instruction": "What is mathematics?",
+    "response" : "संदर्भ— Mathematics is the study of numbers, quantities, structures, patterns, and logical relationships."
+  },
+  {
+    "instruction": "What is physics?",
+    "response" : "संदर्भ— Physics is the science that studies matter, energy, motion, forces, and fundamental interactions."
+  },
+  {
+    "instruction": "What is chemistry?",
+    "response" : "संदर्भ— Chemistry is the science of matter, its properties, composition, and transformations."
+  },
+  {
+    "instruction": "What is biology?",
+    "response" : "संदर्भ— Biology is the scientific study of living organisms and their processes."
+  },
+  {
+    "instruction": "What is astronomy?",
+    "response" : "संदर्भ— Astronomy is the scientific study of stars, planets, galaxies, and other objects in the universe."
+  },
+  {
+    "instruction": "What is the Sun?",
+    "response" : "संदर्भ— The Sun is the star at the center of our solar system."
+  },
+  {
+    "instruction": "What is the Earth?",
+    "response" : "संदर्भ— Earth is the third planet from the Sun and the only known planet to support life."
+  },
+  {
+    "instruction": "What is the Moon?",
+    "response" : "संदर्भ— The Moon is Earth's natural satellite."
+  },
+  {
+    "instruction": "What is gravity?",
+    "response" : "संदर्भ— Gravity is a fundamental interaction that causes objects with mass to attract one another."
+  },
+  {
+    "instruction": "What is energy?",
+    "response" : "संदर्भ— Energy is the capacity of a physical system to perform work or cause change."
+  },
+  {
+    "instruction": "What is electricity?",
+    "response" : "संदर्भ— Electricity involves the presence and movement of electric charge."
+  },
+  {
+    "instruction": "What is temperature?",
+    "response" : "संदर्भ— Temperature is a measure related to the thermal energy and average microscopic motion of particles."
+  },
+  {
+    "instruction": "What is water?",
+    "response" : "संदर्भ— Water is a chemical compound consisting of two hydrogen atoms and one oxygen atom."
+  },
+  {
+    "instruction": "What is oxygen?",
+    "response" : "संदर्भ— Oxygen is a chemical element essential to many forms of life and commonly present in Earth's atmosphere."
+  },
+  {
+    "instruction": "What is carbon dioxide?",
+    "response" : "संदर्भ— Carbon dioxide is a chemical compound consisting of one carbon atom and two oxygen atoms."
+  },
+  {
+    "instruction": "What is photosynthesis?",
+    "response" : "संदर्भ— Photosynthesis is the process by which plants and some other organisms use light energy to produce chemical energy."
+  },
+  {
+    "instruction": "What is DNA?",
+    "response" : "संदर्भ— DNA is the molecule that carries genetic information in living organisms."
+  },
+  {
+    "instruction": "What is a cell?",
+    "response" : "संदर्भ— A cell is the basic structural and functional unit of living organisms."
+  },
+  {
+    "instruction": "What is evolution?",
+    "response" : "संदर्भ— Evolution is the change in inherited characteristics of populations across generations."
+  },
+  {
+    "instruction": "What is an ecosystem?",
+    "response" : "संदर्भ— An ecosystem consists of living organisms interacting with each other and with their physical environment."
+  },
+  {
+    "instruction": "What is the environment?",
+    "response" : "संदर्भ— The environment includes the natural and human-made surroundings in which organisms and societies exist."
+  },
+  {
+    "instruction": "What is climate?",
+    "response" : "संदर्भ— Climate describes the long-term patterns of weather in a region."
+  },
+  {
+    "instruction": "What is weather?",
+    "response" : "संदर्भ— Weather describes short-term atmospheric conditions such as temperature, precipitation, wind, and humidity."
+  },
+  {
+    "instruction": "What is a renewable energy source?",
+    "response" : "संदर्भ— Renewable energy comes from sources that are naturally replenished, such as sunlight, wind, and flowing water."
+  },
+  {
+    "instruction": "What is solar energy?",
+    "response" : "संदर्भ— Solar energy is energy derived from sunlight."
+  },
+  {
+    "instruction": "What is wind energy?",
+    "response" : "संदर्भ— Wind energy uses moving air to generate useful power, often through turbines."
+  },
+  {
+    "instruction": "What is a solar panel?",
+    "response" : "संदर्भ— A solar panel is a device that converts sunlight into electrical energy."
+  },
+  {
+    "instruction": "What is economics?",
+    "response" : "संदर्भ— Economics is the study of how people and societies allocate scarce resources."
+  },
+  {
+    "instruction": "What is inflation?",
+    "response" : "संदर्भ— Inflation is a sustained increase in the general level of prices over time."
+  },
+  {
+    "instruction": "What is supply and demand?",
+    "response" : "संदर्भ— Supply and demand describe how the availability of goods and services and buyers' willingness to purchase them interact in markets."
+  },
+  {
+    "instruction": "What is a market?",
+    "response" : "संदर्भ— A market is a system or place where buyers and sellers exchange goods, services, or assets."
+  },
+  {
+    "instruction": "What is finance?",
+    "response" : "संदर्भ— Finance is the management of money, investments, credit, and financial resources."
+  },
+  {
+    "instruction": "What is a budget?",
+    "response" : "संदर्भ— A budget is a plan for expected income and expenses over a specified period."
+  },
+  {
+    "instruction": "What is an investment?",
+    "response" : "संदर्भ— An investment is an allocation of money or resources with the expectation of generating future value or returns."
+  },
+  {
+    "instruction": "What is a bank?",
+    "response" : "संदर्भ— A bank is a financial institution that provides services such as deposits, payments, lending, and transfers."
+  },
+  {
+    "instruction": "What is interest?",
+    "response" : "संदर्भ— Interest is the cost of borrowing money or the return earned on deposited or invested money."
+  },
+  {
+    "instruction": "What is a loan?",
+    "response" : "संदर्भ— A loan is money or another asset provided to a borrower with an agreement to repay it, usually with interest."
+  },
+  {
+    "instruction": "What is insurance?",
+    "response" : "संदर्भ— Insurance is a financial arrangement that provides protection against specified risks in exchange for premiums."
+  },
+  {
+    "instruction": "What is entrepreneurship?",
+    "response" : "संदर्भ— Entrepreneurship involves creating, developing, and managing a business or venture."
+  },
+  {
+    "instruction": "What is a startup?",
+    "response" : "संदर्भ— A startup is a young company typically created to develop and scale a product or service."
+  },
+  {
+    "instruction": "What is marketing?",
+    "response" : "संदर्भ— Marketing involves activities used to understand customers and promote products, services, or brands."
+  },
+  {
+    "instruction": "What is a brand?",
+    "response" : "संदर्भ— A brand is the identity and perception associated with a product, service, organization, or company."
+  },
+  {
+    "instruction": "What is customer service?",
+    "response" : "संदर्भ— Customer service helps customers before, during, and after they use a product or service."
+  },
+  {
+    "instruction": "What is project management?",
+    "response" : "संदर्भ— Project management involves planning, organizing, and controlling resources to achieve defined project goals."
+  },
+  {
+    "instruction": "What is leadership?",
+    "response" : "संदर्भ— Leadership is the ability to guide, influence, and support people toward a shared goal."
+  },
+  {
+    "instruction": "What is teamwork?",
+    "response" : "संदर्भ— Teamwork is collaborative effort among people working toward a common objective."
+  },
+  {
+    "instruction": "What is communication?",
+    "response" : "संदर्भ— Communication is the process of exchanging information, ideas, or feelings between people or systems."
+  },
+  {
+    "instruction": "What is education?",
+    "response" : "संदर्भ— Education is the process of acquiring knowledge, skills, values, and understanding."
+  },
+  {
+    "instruction": "What is learning?",
+    "response" : "संदर्भ— Learning is the process of acquiring or improving knowledge, skills, behaviors, or understanding."
+  },
+  {
+    "instruction": "What is critical thinking?",
+    "response" : "संदर्भ— Critical thinking involves carefully evaluating information, evidence, assumptions, and reasoning before reaching conclusions."
+  },
+  {
+    "instruction": "What is creativity?",
+    "response" : "संदर्भ— Creativity is the ability to generate novel and useful ideas or approaches."
+  },
+  {
+    "instruction": "What is problem solving?",
+    "response" : "संदर्भ— Problem solving is the process of identifying a problem and developing and evaluating possible solutions."
+  },
+  {
+    "instruction": "What is time management?",
+    "response" : "संदर्भ— Time management involves planning and organizing activities to use available time effectively."
+  },
+  {
+    "instruction": "What is productivity?",
+    "response" : "संदर्भ— Productivity measures how effectively inputs such as time and resources are converted into useful outputs."
+  },
+  {
+    "instruction": "What is sustainability?",
+    "response" : "संदर्भ— Sustainability involves meeting present needs while maintaining resources and conditions for future generations."
+  },
+  {
+    "instruction": "What is democracy?",
+    "response" : "संदर्भ— Democracy is a system of government in which political power is exercised by the people, directly or through representatives."
+  },
+  {
+    "instruction": "What is a constitution?",
+    "response" : "संदर्भ— A constitution is a fundamental set of principles and rules governing a state or organization."
+  },
+  {
+    "instruction": "What is a government?",
+    "response" : "संदर्भ— A government is the institution or system responsible for exercising authority and administering a political community."
+  },
+  {
+    "instruction": "What is a law?",
+    "response" : "संदर्भ— A law is a rule or set of rules established and enforced by a governing authority."
+  },
+  {
+    "instruction": "What is history?",
+    "response" : "संदर्भ— History is the study and interpretation of past events and human societies."
+  },
+  {
+    "instruction": "What is geography?",
+    "response" : "संदर्भ— Geography is the study of Earth's places, environments, physical features, and human activities."
+  },
+  {
+    "instruction": "What is culture?",
+    "response" : "संदर्भ— Culture consists of shared beliefs, values, customs, practices, knowledge, and expressions of a group."
+  },
+  {
+    "instruction": "What is language?",
+    "response" : "संदर्भ— Language is a system of communication using symbols, sounds, or signs."
+  },
+  {
+    "instruction": "What is literature?",
+    "response" : "संदर्भ— Literature is written or spoken creative work that expresses ideas, experiences, and imagination."
+  },
+  {
+    "instruction": "What is philosophy?",
+    "response" : "संदर्भ— Philosophy is the systematic examination of fundamental questions about existence, knowledge, values, and reason."
+  },
+  {
+    "instruction": "What is ethics?",
+    "response" : "संदर्भ— Ethics is the study of principles concerning right and wrong conduct."
+  },
+  {
+    "instruction": "What is logic?",
+    "response" : "संदर्भ— Logic is the study of valid reasoning and the principles used to distinguish sound arguments."
+  },
+  {
+    "instruction": "What is psychology?",
+    "response" : "संदर्भ— Psychology is the scientific study of behavior and mental processes."
+  },
+  {
+    "instruction": "What is sociology?",
+    "response" : "संदर्भ— Sociology is the study of society, social relationships, institutions, and patterns of collective behavior."
+  },
+  {
+    "instruction": "What is anthropology?",
+    "response" : "संदर्भ— Anthropology is the study of humans, their cultures, societies, and biological development."
+  },
+  {
+    "instruction": "What is science?",
+    "response" : "संदर्भ— Science is a systematic approach to understanding the natural world through observation, testing, and evidence."
+  },
+  {
+    "instruction": "What is the scientific method?",
+    "response" : "संदर्भ— The scientific method is a structured approach involving observation, hypothesis formation, testing, analysis, and revision."
+  },
+  {
+    "instruction": "What is a hypothesis?",
+    "response" : "संदर्भ— A hypothesis is a testable proposed explanation for an observation or phenomenon."
+  },
+  {
+    "instruction": "What is an experiment?",
+    "response" : "संदर्भ— An experiment is a controlled procedure used to test a hypothesis or investigate a question."
+  },
+  {
+    "instruction": "What is evidence?",
+    "response" : "संदर्भ— Evidence is information or observations used to support or evaluate a claim or conclusion."
+  },
+  {
+    "instruction": "What is probability?",
+    "response" : "संदर्भ— Probability is a mathematical measure of how likely an event is to occur."
+  },
+  {
+    "instruction": "What is geometry?",
+    "response" : "संदर्भ— Geometry is the branch of mathematics concerned with shapes, sizes, positions, and spatial relationships."
+  },
+  {
+    "instruction": "What is algebra?",
+    "response" : "संदर्भ— Algebra is a branch of mathematics that uses symbols and rules to represent and solve relationships."
+  },
+  {
+    "instruction": "What is calculus?",
+    "response" : "संदर्भ— Calculus is a branch of mathematics focused on change, limits, derivatives, and integrals."
+  },
+  {
+    "instruction": "What is a prime number?",
+    "response" : "संदर्भ— A prime number is a positive integer greater than one that has exactly two positive divisors: one and itself."
+  },
+  {
+    "instruction": "What is zero?",
+    "response" : "संदर्भ— Zero is the integer representing no quantity and serves as the additive identity."
+  },
+  {
+    "instruction": "What is infinity?",
+    "response" : "संदर्भ— Infinity is a mathematical concept representing something without a finite bound."
+  },
+  {
+    "instruction": "What is a fraction?",
+    "response" : "संदर्भ— A fraction represents a quantity as the ratio of one integer to another nonzero integer."
+  },
+  {
+    "instruction": "What is a percentage?",
+    "response" : "संदर्भ— A percentage expresses a number as a fraction of one hundred."
+  },
+  {
+    "instruction": "What is a unit test?",
+    "response" : "संदर्भ— A unit test is an automated test that verifies the behavior of a small, isolated part of software."
+  },
+  {
+    "instruction": "What is an integration test?",
+    "response" : "संदर्भ— An integration test checks whether multiple components or services work correctly together."
+  },
+  {
+    "instruction": "What is automation?",
+    "response" : "संदर्भ— Automation uses technology to perform tasks with reduced manual intervention."
+  },
+  {
+    "instruction": "What is robotics?",
+    "response" : "संदर्भ— Robotics is the field concerned with designing, building, programming, and operating robots."
+  },
+  {
+    "instruction": "What is a robot?",
+    "response" : "संदर्भ— A robot is a programmable machine capable of performing tasks automatically or semi-autonomously."
+  },
+  {
+    "instruction": "What is augmented reality?",
+    "response" : "संदर्भ— Augmented reality overlays digital information or objects onto a user's view of the real world."
+  },
+  {
+    "instruction": "What is virtual reality?",
+    "response" : "संदर्भ— Virtual reality creates an immersive computer-generated environment that users can interact with."
+  },
+  {
+    "instruction": "What is the metaverse?",
+    "response" : "संदर्भ— The metaverse is a broad concept describing interconnected digital environments where people may interact through avatars and digital representations."
+  },
+  {
+    "instruction": "What is a digital twin?",
+    "response" : "संदर्भ— A digital twin is a digital representation of a physical object, system, or process that can be used for monitoring or analysis."
+  },
+  {
+    "instruction": "What is quantum computing?",
+    "response" : "संदर्भ— Quantum computing uses quantum-mechanical phenomena to perform certain types of computations."
+  },
+  {
+    "instruction": "What is a qubit?",
+    "response" : "संदर्भ— A qubit is the basic unit of quantum information and can exist in a combination of quantum states."
+  },
+  {
+    "instruction": "What is cloud storage?",
+    "response" : "संदर्भ— Cloud storage stores digital data on remote infrastructure that can be accessed through a network."
+  },
+  {
+    "instruction": "What is data encryption at rest?",
+    "response" : "संदर्भ— Encryption at rest protects stored data by encoding it so unauthorized parties cannot easily read it."
+  },
+  {
+    "instruction": "What is data encryption in transit?",
+    "response" : "संदर्भ— Encryption in transit protects data while it moves between systems or across networks."
+  },
+  {
+    "instruction": "What is zero trust security?",
+    "response" : "संदर्भ— Zero trust is a security approach that requires continuous verification rather than automatically trusting users or devices."
+  },
+  {
+    "instruction": "What is identity management?",
+    "response" : "संदर्भ— Identity management involves creating, managing, authenticating, and controlling digital identities and their access."
+  },
+  {
+    "instruction": "What is access control?",
+    "response" : "संदर्भ— Access control determines which users or systems can access particular resources and actions."
+  },
+  {
+    "instruction": "What is data governance?",
+    "response" : "संदर्भ— Data governance establishes policies and responsibilities for managing data quality, security, availability, and usage."
+  },
+  {
+    "instruction": "What is data privacy?",
+    "response" : "संदर्भ— Data privacy concerns how personal information is collected, processed, stored, shared, and protected."
+  },
+  {
+    "instruction": "What is a data warehouse?",
+    "response" : "संदर्भ— A data warehouse is a centralized system designed for storing and analyzing large amounts of structured data."
+  },
+  {
+    "instruction": "What is a data lake?",
+    "response" : "संदर्भ— A data lake stores large amounts of raw data in various formats for later processing and analysis."
+  },
+  {
+    "instruction": "What is ETL?",
+    "response" : "संदर्भ— ETL stands for extract, transform, and load, a process for moving and preparing data for analysis or storage."
+  },
+  {
+    "instruction": "What is an ETL pipeline?",
+    "response" : "संदर्भ— An ETL pipeline automates the extraction, transformation, and loading of data between systems."
+  },
+  {
+    "instruction": "What is big data?",
+    "response" : "संदर्भ— Big data refers to datasets whose size, complexity, or speed of generation creates challenges for traditional data-processing approaches."
+  },
+  {
+    "instruction": "What is data visualization?",
+    "response" : "संदर्भ— Data visualization represents information graphically to make patterns, trends, and relationships easier to understand."
+  },
+  {
+    "instruction": "What is a dashboard?",
+    "response" : "संदर्भ— A dashboard presents key information and metrics in a visual interface for monitoring or analysis."
+  },
+  {
+    "instruction": "What is business intelligence?",
+    "response" : "संदर्भ— Business intelligence uses data analysis and reporting to support organizational decision-making."
+  },
+  {
+    "instruction": "What is a KPI?",
+    "response" : "संदर्भ— A KPI is a key performance indicator used to measure progress toward an important objective."
+  },
+  {
+    "instruction": "What is an OKR?",
+    "response" : "संदर्भ— OKR stands for Objectives and Key Results, a framework for setting goals and measuring outcomes."
+  },
+  {
+    "instruction": "What is a requirement in software engineering?",
+    "response" : "संदर्भ— A software requirement describes a capability, condition, or constraint that a system should satisfy."
+  },
+  {
+    "instruction": "What is software documentation?",
+    "response" : "संदर्भ— Software documentation records information needed to understand, use, maintain, or develop a software system."
+  },
+  {
+    "instruction": "What is technical debt?",
+    "response" : "संदर्भ— Technical debt represents future costs created by choosing a quick or imperfect implementation instead of a more sustainable solution."
+  },
+  {
+    "instruction": "What is refactoring?",
+    "response" : "संदर्भ— Refactoring improves the internal structure of code without intentionally changing its external behavior."
+  },
+  {
+    "instruction": "What is clean code?",
+    "response" : "संदर्भ— Clean code is software written to be readable, understandable, maintainable, and appropriately simple."
+  },
+  {
+    "instruction": "What is code quality?",
+    "response" : "संदर्भ— Code quality describes characteristics such as readability, maintainability, correctness, reliability, and testability."
+  },
+  {
+    "instruction": "What is software maintenance?",
+    "response" : "संदर्भ— Software maintenance involves modifying software after release to fix problems, improve it, or adapt it to changes."
+  },
+  {
+    "instruction": "What is software testing?",
+    "response" : "संदर्भ— Software testing evaluates software to find defects and verify that it meets expected requirements."
+  },
+  {
+    "instruction": "What is quality assurance?",
+    "response" : "संदर्भ— Quality assurance consists of systematic practices intended to improve and maintain software quality."
+  },
+  {
+    "instruction": "What is deployment?",
+    "response" : "संदर्भ— Deployment is the process of making software available in an environment where it can run."
+  },
+  {
+    "instruction": "What is production?",
+    "response" : "संदर्भ— Production is the environment in which software operates for its intended real-world users."
+  },
+  {
+    "instruction": "What is staging?",
+    "response" : "संदर्भ— Staging is an environment used to test software in conditions similar to production before release."
+  },
+  {
+    "instruction": "What is a development environment?",
+    "response" : "संदर्भ— A development environment is a setup where software is written, tested, and debugged."
+  },
+  {
+    "instruction": "What is an API gateway?",
+    "response" : "संदर्भ— An API gateway acts as an entry point that routes and manages requests to backend services."
+  },
+  {
+    "instruction": "What is a message queue?",
+    "response" : "संदर्भ— A message queue stores messages temporarily so producers and consumers can communicate asynchronously."
+  },
+  {
+    "instruction": "What is asynchronous programming?",
+    "response" : "संदर्भ— Asynchronous programming allows a program to initiate operations without necessarily waiting for each one to finish before continuing."
+  },
+  {
+    "instruction": "What is synchronous programming?",
+    "response" : "संदर्भ— Synchronous programming generally executes operations in sequence, waiting for one operation to complete before proceeding."
+  },
+  {
+    "instruction": "What is an event-driven architecture?",
+    "response" : "संदर्भ— Event-driven architecture organizes systems around events and the components that produce or respond to them."
+  },
+  {
+    "instruction": "What is a REST API?",
+    "response" : "संदर्भ— A REST API exposes resources and operations over HTTP using conventions associated with REST."
+  },
+  {
+    "instruction": "What is an HTTP request?",
+    "response" : "संदर्भ— An HTTP request is a message sent by a client to a server asking for a resource or action."
+  },
+  {
+    "instruction": "What is an HTTP response?",
+    "response" : "संदर्भ— An HTTP response is a message returned by a server after processing an HTTP request."
+  },
+  {
+    "instruction": "What is HTTP status code 404?",
+    "response" : "संदर्भ— HTTP status code 404 indicates that the requested resource could not be found."
+  },
+  {
+    "instruction": "What is HTTP status code 200?",
+    "response" : "संदर्भ— HTTP status code 200 indicates that an HTTP request was successfully processed."
+  },
+  {
+    "instruction": "What is HTTP status code 500?",
+    "response" : "संदर्भ— HTTP status code 500 indicates an internal server error."
+  },
+  {
+    "instruction": "What is JSON API data?",
+    "response" : "संदर्भप्रदान — JSON API data is structured information represented using the JSON format and exchanged between software systems."
+  },
+  {
+    "instruction": "What is serialization?",
+    "response" : "संदर्भ— Serialization converts an object or data structure into a format suitable for storage or transmission."
+  },
+  {
+    "instruction": "What is deserialization?",
+    "response" : "संदर्भ— Deserialization converts serialized data back into a usable object or data structure."
+  },
+  {
+    "instruction": "What is an object in programming?",
+    "response" : "संदर्भ— An object is a software entity that can contain data and provide operations or behavior."
+  },
+  {
+    "instruction": "What is a function?",
+    "response" : "संदर्भ— A function is a reusable block of code that performs a specific operation and may accept inputs and return an output."
+  },
+  {
+    "instruction": "What is a variable?",
+    "response" : "संदर्भ— A variable is a named storage location or reference used to hold a value during program execution."
+  },
+  {
+    "instruction": "What is a constant?",
+    "response" : "संदर्भ— A constant is a named value intended not to change during a program's execution."
+  },
+  {
+    "instruction": "What is a loop?",
+    "response" : "संदर्भ— A loop repeatedly executes a block of code while a specified condition or iteration rule applies."
+  },
+  {
+    "instruction": "What is a conditional statement?",
+    "response" : "संदर्भ— A conditional statement executes different code depending on whether a condition is true or false."
+  },
+  {
+    "instruction": "What is a boolean?",
+    "response" : "संदर्भ— A boolean is a data type that represents one of two logical values, typically true or false."
+  },
+  {
+    "instruction": "What is a string?",
+    "response" : "संदर्भ— A string is a sequence of characters used to represent text in programming."
+  },
+  {
+    "instruction": "What is an integer?",
+    "response" : "संदर्भ— An integer is a whole number without a fractional component."
+  },
+  {
+    "instruction": "What is a floating-point number?",
+    "response" : "संदर्भ— A floating-point number represents a real number using a representation that supports fractional values."
+  },
+  {
+    "instruction": "What is a null value?",
+    "response" : "संदर्भ— A null value generally represents the absence of a value or an intentionally empty reference."
+  },
+  {
+    "instruction": "What is a Boolean expression?",
+    "response" : "संदर्भ— A Boolean expression evaluates to a logical value such as true or false."
+  },
+  {
+    "instruction": "What is source code?",
+    "response" : "संदर्भ— Source code is human-readable program code written in a programming language."
+  },
+  {
+    "instruction": "What is machine code?",
+    "response" : "संदर्भ— Machine code consists of low-level instructions that a computer processor can execute directly."
+  },
+  {
+    "instruction": "What is bytecode?",
+    "response" : "संदर्भ— Bytecode is an intermediate representation of program instructions designed to be executed by a virtual machine or runtime."
+  },
+  {
+    "instruction": "What is an executable file?",
+    "response" : "संदर्भ— An executable file contains instructions or information that allows an operating system to run a program."
+  },
+  {
+    "instruction": "What is a software package?",
+    "response" : "संदर्भ— A software package is a distributable collection of code and metadata that can be installed or managed as a unit."
+  },
+  {
+    "instruction": "What is a dependency manager?",
+    "response" : "संदर्भ— A dependency manager helps projects install, update, and track the external libraries they require."
+  },
+  {
+    "instruction": "What is a build system?",
+    "response" : "संदर्भ— A build system automates tasks such as compiling code, packaging applications, and running tests."
+  },
+  {
+    "instruction": "What is CI/CD?",
+    "response" : "संदर्भ— CI/CD refers to practices and automation for continuously integrating, testing, and delivering software changes."
+  },
+  {
+    "instruction": "What is infrastructure as code?",
+    "response" : "संदर्भ— Infrastructure as code manages computing infrastructure through machine-readable configuration files and code."
+  },
+  {
+    "instruction": "What is Terraform?",
+    "response" : "संदर्भ— Terraform is an infrastructure-as-code tool used to provision and manage infrastructure declaratively."
+  },
+  {
+    "instruction": "What is Ansible?",
+    "response" : "संदर्भ— Ansible is an automation tool commonly used for configuration management, application deployment, and orchestration."
+  },
+  {
+    "instruction": "What is a container?",
+    "response" : "संदर्भ— A software container packages an application with its dependencies so it can run consistently across environments."
+  },
+  {
+    "instruction": "What is container orchestration?",
+    "response" : "संदर्भ— Container orchestration automates the deployment, scaling, networking, and management of containers."
+  },
+  {
+    "instruction": "What is a cloud region?",
+    "response" : "संदर्भ— A cloud region is a geographic area containing one or more data centers operated by a cloud provider."
+  },
+  {
+    "instruction": "What is cloud availability zone?",
+    "response" : "संदर्भ— An availability zone is an isolated location within a cloud region designed to improve resilience."
+  },
+  {
+    "instruction": "What is object storage?",
+    "response" : "संदर्भ— Object storage stores data as objects along with associated metadata and identifiers."
+  },
+  {
+    "instruction": "What is block storage?",
+    "response" : "संदर्भ— Block storage provides storage volumes divided into fixed-size blocks that systems can access directly."
+  },
+  {
+    "instruction": "What is file storage?",
+    "response" : "संदर्भ— File storage organizes data into files and directories accessible through a filesystem-like interface."
+  },
+  {
+    "instruction": "What is a virtual private cloud?",
+    "response" : "संदर्भ— A virtual private cloud is an isolated virtual network environment provided within a public cloud."
+  },
+  {
+    "instruction": "What is network security?",
+    "response" : "संदर्भ— Network security protects network infrastructure and traffic against unauthorized access, misuse, and attacks."
+  },
+  {
+    "instruction": "What is endpoint security?",
+    "response" : "संदर्भ— Endpoint security protects devices such as computers, phones, and servers from digital threats."
+  },
+  {
+    "instruction": "What is identity verification?",
+    "response" : "संदर्भ— Identity verification is the process of confirming that a person or entity is who they claim to be."
+  },
+  {
+    "instruction": "What is multi-factor authentication?",
+    "response" : "संदर्भ— Multi-factor authentication requires multiple independent forms of verification before granting access."
+  },
+  {
+    "instruction": "What is a security policy?",
+    "response" : "संदर्भ— A security policy defines rules and practices for protecting systems, information, and users."
+  },
+  {
+    "instruction": "What is risk management?",
+    "response" : "संदर्भ— Risk management involves identifying, evaluating, and addressing potential threats or uncertainties."
+  },
+  {
+    "instruction": "What is threat modeling?",
+    "response" : "संदर्भ— Threat modeling systematically identifies potential threats and weaknesses in a system and considers ways to reduce them."
+  },
+  {
+    "instruction": "What is secure coding?",
+    "response" : "संदर्भ— Secure coding involves writing software in ways that reduce vulnerabilities and protect data and systems."
+  },
+  {
+    "instruction": "What is software architecture pattern?",
+    "response" : "संदर्भ— A software architecture pattern is a reusable high-level approach for organizing components and interactions in a system."
+  },
+  {
+    "instruction": "What is MVC?",
+    "response" : "संदर्भ— MVC is an architectural pattern that separates an application into model, view, and controller responsibilities."
+  },
+  {
+    "instruction": "What is dependency injection?",
+    "response" : "संदर्भ— Dependency injection provides an object's dependencies from outside rather than requiring the object to create them itself."
+  },
+  {
+    "instruction": "What is an ORM?",
+    "response" : "संदर्भ— An ORM maps objects in application code to records and structures in a relational database."
+  },
+  {
+    "instruction": "What is Django ORM?",
+    "response" : "संदर्भ— Django ORM provides a Python interface for interacting with databases using Django models instead of writing every SQL query manually."
+  },
+  {
+    "instruction": "What is React component?",
+    "response" : "संदर्भ— A React component is a reusable piece of UI logic and presentation."
+  },
+  {
+    "instruction": "What is React state?",
+    "response" : "संदर्भ— React state is data maintained by a component that can change over time and trigger UI updates."
+  },
+  {
+    "instruction": "What is React props?",
+    "response" : "संदर्भ— React props are inputs passed from a parent component to a child component."
+  },
+  {
+    "instruction": "What is a JavaScript promise?",
+    "response" : "संदर्भ— A JavaScript Promise represents the eventual completion or failure of an asynchronous operation."
+  },
+  {
+    "instruction": "What is async/await?",
+    "response" : "संदर्भ— Async/await is syntax that makes asynchronous JavaScript code easier to write and read."
+  },
+  {
+    "instruction": "What is an event loop?",
+    "response" : "संदर्भ— An event loop coordinates asynchronous tasks and callback execution in environments such as JavaScript runtimes."
+  },
+  {
+    "instruction": "What is a DOM?",
+    "response" : "संदर्भ— The DOM is a programming interface representing the structure of an HTML or XML document as objects."
+  },
+  {
+    "instruction": "What is a CSS selector?",
+    "response" : "संदर्भ— A CSS selector identifies the HTML elements to which CSS rules should apply."
+  },
+  {
+    "instruction": "What is a CSS property?",
+    "response" : "संदर्भ— A CSS property specifies a particular aspect of an element's presentation, such as color or size."
+  },
+  {
+    "instruction": "What is an HTML element?",
+    "response" : "संदर्भ— An HTML element is a structural component of a web document represented by tags and their content."
+  },
+  {
+    "instruction": "What is semantic HTML?",
+    "response" : "संदर्भ— Semantic HTML uses elements that communicate the meaning and structure of content."
+  },
+  {
+    "instruction": "What is web accessibility?",
+    "response" : "संदर्भ— Web accessibility aims to make websites and web applications usable by people with diverse abilities."
+  },
+  {
+    "instruction": "What is responsive design?",
+    "response" : "संदर्भ— Responsive design allows an interface to adapt its layout and presentation to different screen sizes."
+  },
+  {
+    "instruction": "What is a single-page application?",
+    "response" : "संदर्भ— A single-page application dynamically updates content without requiring full page reloads for many user interactions."
+  },
+  {
+    "instruction": "What is server-side rendering?",
+    "response" : "संदर्भ— Server-side rendering generates web page content on the server before sending it to the client."
+  },
+  {
+    "instruction": "What is client-side rendering?",
+    "response" : "संदर्भ— Client-side rendering generates or updates much of a web interface in the user's browser."
+  },
+  {
+    "instruction": "What is static site generation?",
+    "response" : "संदर्भ— Static site generation creates web pages ahead of time so they can be served as prebuilt files."
+  },
+  {
+    "instruction": "What is a static website?",
+    "response" : "संदर्भ— A static website primarily serves prebuilt files rather than generating page content dynamically for each request."
+  },
+  {
+    "instruction": "What is dynamic content?",
+    "response" : "संदर्भ— Dynamic content is generated or modified based on data, user actions, or other runtime conditions."
+  },
+  {
+    "instruction": "What is a cookie?",
+    "response" : "संदर्भ— A web cookie is a small piece of data stored by a browser and associated with a website."
+  },
+  {
+    "instruction": "What is a browser cache?",
+    "response" : "संदर्भ— A browser cache stores copies of web resources locally to make subsequent page loads faster."
+  },
+  {
+    "instruction": "What is local storage?",
+    "response" : "संदर्भ— Web local storage allows a browser to persist key-value data for a website on the user's device."
+  },
+  {
+    "instruction": "What is a session?",
+    "response" : "संदर्भ— A web session represents a period of interaction between a user and an application."
+  },
+  {
+    "instruction": "What is a session cookie?",
+    "response" : "संदर्भ— A session cookie is a cookie generally used to maintain information during a browsing session."
+  },
+  {
+    "instruction": "What is an SSL certificate?",
+    "response" : "संदर्भ— An SSL certificate is a digital certificate used to help authenticate a website and enable encrypted connections, typically through TLS."
+  },
+  {
+    "instruction": "What is TLS?",
+    "response" : "संदर्भ— TLS is a cryptographic protocol used to secure communications over networks."
+  },
+  {
+    "instruction": "What is public cloud?",
+    "response" : "संदर्भ— A public cloud provides computing resources operated by a provider and made available to multiple customers."
+  },
+  {
+    "instruction": "What is private cloud?",
+    "response" : "संदर्भ— A private cloud is cloud infrastructure dedicated to a single organization or controlled environment."
+  },
+  {
+    "instruction": "What is hybrid cloud?",
+    "response" : "संदर्भ— A hybrid cloud combines private infrastructure with public cloud resources and enables some degree of integration between them."
+  },
+  {
+    "instruction": "What is multicloud?",
+    "response" : "संदर्भ— Multicloud is the use of services from multiple cloud providers."
+  },
+  {
+    "instruction": "What is cloud migration?",
+    "response" : "संदर्भ— Cloud migration is the process of moving applications, data, or infrastructure from one environment to a cloud environment."
+  },
+  {
+    "instruction": "What is autoscaling?",
+    "response" : "संदर्भ— Autoscaling automatically adjusts computing resources according to workload or defined policies."
+  },
+  {
+    "instruction": "What is a container image?",
+    "response" : "संदर्भ— A container image is a packaged filesystem and metadata used as the basis for creating containers."
+  },
+  {
+    "instruction": "What is Docker Compose?",
+    "response" : "संदर्भ— Docker Compose is a tool for defining and running multi-container applications."
+  },
+  {
+    "instruction": "What is Kubernetes pod?",
+    "response" : "संदर्भ— A Kubernetes pod is the smallest deployable unit in Kubernetes and can contain one or more closely related containers."
+  },
+  {
+    "instruction": "What is a Kubernetes service?",
+    "response" : "संदर्भ— A Kubernetes Service provides a stable network endpoint for accessing a set of pods."
+  },
+  {
+    "instruction": "What is an ingress?",
+    "response" : "संदर्भ— Ingress provides rules for routing external HTTP or HTTPS traffic to services within a Kubernetes cluster."
+  },
+  {
+    "instruction": "What is a deployment in Kubernetes?",
+    "response" : "संदर्भ— A Kubernetes Deployment manages replicated application pods and supports controlled updates."
+  },
+  {
+    "instruction": "What is a database schema?",
+    "response" : "संदर्भ— A database schema defines the structure of data, including tables, fields, relationships, and constraints."
+  },
+  {
+    "instruction": "What is a relational database?",
+    "response" : "संदर्भ— A relational database stores data in structured tables connected through defined relationships."
+  },
+  {
+    "instruction": "What is a NoSQL database?",
+    "response" : "संदर्भ— A NoSQL database uses data models such as documents, key-value pairs, columns, or graphs rather than traditional relational tables."
+  },
+  {
+    "instruction": "What is a document database?",
+    "response" : "संदर्भ— A document database stores data as flexible documents, often using JSON-like structures."
+  },
+  {
+    "instruction": "What is a key-value database?",
+    "response" : "संदर्भ— A key-value database stores data as pairs consisting of unique keys and associated values."
+  },
+  {
+    "instruction": "What is database replication?",
+    "response" : "संदर्भ— Database replication copies data from one database server or instance to another."
+  },
+  {
+    "instruction": "What is database sharding?",
+    "response" : "संदर्भ— Database sharding distributes portions of data across multiple database instances."
+  },
+  {
+    "instruction": "What is a database backup?",
+    "response" : "संदर्भ— A database backup is a stored copy of database data that can be used for restoration."
+  },
+  {
+    "instruction": "What is an SQL query?",
+    "response" : "संदर्भ— An SQL query is a statement used to retrieve, modify, or otherwise operate on data in a database."
+  },
+  {
+    "instruction": "What is SELECT in SQL?",
+    "response" : "संदर्भ— SELECT is an SQL statement used to retrieve data from one or more tables or other queryable sources."
+  },
+  {
+    "instruction": "What is INSERT in SQL?",
+    "response" : "संदर्भ— INSERT is an SQL statement used to add new rows to a table."
+  },
+  {
+    "instruction": "What is UPDATE in SQL?",
+    "response" : "संदर्भ— UPDATE is an SQL statement used to modify existing rows in a table."
+  },
+  {
+    "instruction": "What is DELETE in SQL?",
+    "response" : "संदर्भ— DELETE is an SQL statement used to remove rows from a table."
+  },
+  {
+    "instruction": "What is a database constraint?",
+    "response" : "संदर्भ— A database constraint is a rule that restricts the values or relationships allowed in a database."
+  },
+  {
+    "instruction": "What is data integrity?",
+    "response" : "संदर्भ— Data integrity refers to maintaining the accuracy, consistency, and reliability of data."
+  },
+  {
+    "instruction": "What is a transaction log?",
+    "response" : "संदर्भ— A transaction log records database changes and can support recovery and consistency mechanisms."
+  },
+  {
+    "instruction": "What is an index scan?",
+    "response" : "संदर्भ— An index scan uses a database index to locate relevant records more efficiently than scanning every row."
+  },
+  {
+    "instruction": "What is query optimization?",
+    "response" : "संदर्भ— Query optimization is the process of choosing efficient ways to execute database queries."
+  },
+  {
+    "instruction": "What is a software API client?",
+    "response" : "संदर्भ— An API client is software that sends requests to and receives responses from an API."
+  },
+  {
+    "instruction": "What is an API server?",
+    "response" : "संदर्भ— An API server receives API requests, performs the requested operations, and returns responses."
+  },
+  {
+    "instruction": "What is rate limiting?",
+    "response" : "संदर्भ— Rate limiting restricts how many requests a user or system can make within a specified period."
+  },
+  {
+    "instruction": "What is pagination?",
+    "response" : "संदर्भ— Pagination divides a large collection of results into smaller pages that can be retrieved separately."
+  },
+  {
+    "instruction": "What is API versioning?",
+    "response" : "संदर्भ— API versioning allows an API provider to introduce changes while maintaining compatibility with existing clients."
+  },
+  {
+    "instruction": "What is idempotency?",
+    "response" : "संदर्भ— Idempotency means that performing an operation multiple times has the same intended effect as performing it once."
+  },
+  {
+    "instruction": "What is a status code?",
+    "response" : "संदर्भ— A status code is a numerical code used to describe the result of an operation or request."
+  },
+  {
+    "instruction": "What is software latency?",
+    "response" : "संदर्भ— Software latency is the time between initiating an operation and receiving its result."
+  },
+  {
+    "instruction": "What is throughput?",
+    "response" : "संदर्भ— Throughput is the amount of work or data a system processes within a given period."
+  },
+  {
+    "instruction": "What is performance optimization?",
+    "response" : "संदर्भ— Performance optimization modifies a system to improve speed, resource usage, throughput, or responsiveness."
+  },
+  {
+    "instruction": "What is profiling?",
+    "response" : "संदर्भ— Profiling measures how software uses resources such as CPU time and memory to identify performance bottlenecks."
+  },
+  {
+    "instruction": "What is benchmarking?",
+    "response" : "संदर्भ— Benchmarking measures system performance using standardized or repeatable workloads."
+  },
+  {
+    "instruction": "What is a bottleneck?",
+    "response" : "संदर्भ— A bottleneck is a component or process that limits the overall performance or capacity of a system."
+  },
+  {
+    "instruction": "What is parallel processing?",
+    "response" : "संदर्भ— Parallel processing divides work into tasks that can be executed simultaneously."
+  },
+  {
+    "instruction": "What is distributed computing?",
+    "response" : "संदर्भ— Distributed computing divides computation across multiple networked computers or processes."
+  },
+  {
+    "instruction": "What is a distributed system?",
+    "response" : "संदर्भ— A distributed system consists of multiple independent computers that work together as a system."
+  },
+  {
+    "instruction": "What is consensus?",
+    "response" : "संदर्भ— Consensus is a process by which distributed participants agree on a shared state or decision."
+  },
+  {
+    "instruction": "What is fault detection?",
+    "response" : "संदर्भ— Fault detection identifies failures or abnormal conditions in a system."
+  },
+  {
+    "instruction": "What is load testing?",
+    "response" : "संदर्भ— Load testing evaluates how a system behaves under expected or increasing workloads."
+  },
+  {
+    "instruction": "What is stress testing?",
+    "response" : "संदर्भ— Stress testing evaluates how a system behaves under unusually high or extreme workloads."
+  },
+  {
+    "instruction": "What is performance testing?",
+    "response" : "संदर्भ— Performance testing evaluates characteristics such as response time, throughput, scalability, and resource usage."
+  },
+  {
+    "instruction": "What is usability testing?",
+    "response" : "संदर्भ— Usability testing evaluates how easily users can complete tasks with a product or interface."
+  },
+  {
+    "instruction": "What is acceptance testing?",
+    "response" : "संदर्भ— Acceptance testing checks whether a system meets specified business or user requirements."
+  },
+  {
+    "instruction": "What is regression testing?",
+    "response" : "संदर्भ— Regression testing checks that recent changes have not broken previously working functionality."
+  },
+  {
+    "instruction": "What is test automation?",
+    "response" : "संदर्भ— Test automation uses software tools to execute tests and evaluate results with reduced manual effort."
+  },
+  {
+    "instruction": "What is a test case?",
+    "response" : "संदर्भ— A test case defines inputs, conditions, actions, and expected results used to verify a software behavior."
+  },
+  {
+    "instruction": "What is a test suite?",
+    "response" : "संदर्भ— A test suite is a collection of related test cases executed to evaluate software behavior."
+  },
+  {
+    "instruction": "What is a software defect?",
+    "response" : "संदर्भ— A software defect is a flaw that can cause a system to behave differently from its expected behavior."
+  },
+  {
+    "instruction": "What is issue tracking?",
+    "response" : "संदर्भ— Issue tracking records, organizes, and monitors software bugs, tasks, and other work items."
+  },
+  {
+    "instruction": "What is a software ticket?",
+    "response" : "संदर्भ— A software ticket is a recorded item representing a task, bug, request, or support issue."
+  },
+  {
+    "instruction": "What is versioning?",
+    "response" : "संदर्भ— Versioning assigns identifiers to different releases or states of software so they can be distinguished and managed."
+  },
+  {
+    "instruction": "What is semantic versioning?",
+    "response" : "संदर्भ— Semantic versioning uses structured version numbers to communicate the nature of software changes."
+  },
+  {
+    "instruction": "What is a release candidate?",
+    "response" : "संदर्भ— A release candidate is a software version considered potentially ready for release pending final validation."
+  },
+  {
+    "instruction": "What is a hotfix?",
+    "response" : "संदर्भ— A hotfix is a software update intended to address an urgent issue, often in a production environment."
+  },
+  {
+    "instruction": "What is a rollback?",
+    "response" : "संदर्भ— A rollback restores software or configuration to a previous known state."
+  },
+  {
+    "instruction": "What is blue-green deployment?",
+    "response" : "संदर्भ— Blue-green deployment maintains two environments so traffic can be switched between the current and new versions."
+  },
+  {
+    "instruction": "What is canary deployment?",
+    "response" : "संदर्भ— Canary deployment gradually exposes a new software version to a limited portion of users before broader rollout."
+  },
+  {
+    "instruction": "What is feature flag?",
+    "response" : "संदर्भ— A feature flag allows functionality to be enabled or disabled without necessarily deploying new code."
+  },
+  {
+    "instruction": "What is software configuration management?",
+    "response" : "संदर्भ— Software configuration management tracks and controls changes to source code, configurations, and related artifacts."
+  },
+  {
+    "instruction": "What is a build artifact?",
+    "response" : "संदर्भ— A build artifact is a file or package produced by a software build process."
+  },
+  {
+    "instruction": "What is a binary?",
+    "response" : "संदर्भ— A binary is data or an executable representation expressed in machine-oriented binary form."
+  },
+  {
+    "instruction": "What is a library dependency?",
+    "response" : "संदर्भ— A library dependency is an external library required by a software project."
+  },
+  {
+    "instruction": "What is package-lock.json?",
+    "response" : "संदर्भ— package-lock.json records the resolved versions of npm dependencies to support reproducible installations."
+  },
+  {
+    "instruction": "What is requirements.txt?",
+    "response" : "संदर्भ— requirements.txt is a common Python file used to specify project dependencies and their versions."
+  },
+  {
+    "instruction": "What is a virtual environment in Python?",
+    "response" : "संदर्भ— A Python virtual environment provides an isolated environment for installing project-specific Python packages."
+  },
+  {
+    "instruction": "What is PEP 8?",
+    "response" : "संदर्भ— PEP 8 is a widely used style guide for writing readable Python code."
+  },
+  {
+    "instruction": "What is a Python module?",
+    "response" : "संदर्भ— A Python module is a file containing Python code that can define functions, classes, variables, or other objects."
+  },
+  {
+    "instruction": "What is a Python package?",
+    "response" : "संदर्भ— A Python package is a way of organizing related Python modules into a structured namespace."
+  },
+  {
+    "instruction": "What is a Python decorator?",
+    "response" : "संदर्भ— A Python decorator is a construct that modifies or extends the behavior of a function or class."
+  },
+  {
+    "instruction": "What is a Python generator?",
+    "response" : "संदर्भ— A Python generator produces values lazily, typically using the yield statement."
+  },
+  {
+    "instruction": "What is a Python list?",
+    "response" : "संदर्भ— A Python list is an ordered, mutable collection that can contain multiple values."
+  },
+  {
+    "instruction": "What is a Python dictionary?",
+    "response" : "संदर्भ— A Python dictionary stores key-value pairs and provides lookup by key."
+  },
+  {
+    "instruction": "What is a Python tuple?",
+    "response" : "संदर्भ— A Python tuple is an ordered, immutable collection of values."
+  },
+  {
+    "instruction": "What is a Python set?",
+    "response" : "संदर्भ— A Python set is an unordered collection of unique elements."
+  },
+  {
+    "instruction": "What is Django middleware?",
+    "response" : "संदर्भ— Django middleware is a layer that processes requests and responses as they pass through the framework."
+  },
+  {
+    "instruction": "What is a Django model?",
+    "response" : "संदर्भ— A Django model is a Python class that represents data and its database structure."
+  },
+  {
+    "instruction": "What is a Django view?",
+    "response" : "संदर्भ— A Django view contains logic that receives a web request and returns an HTTP response."
+  },
+  {
+    "instruction": "What is a Django template?",
+    "response" : "संदर्भ— A Django template defines the presentation of dynamic HTML using template syntax."
+  },
+  {
+    "instruction": "What is React JSX?",
+    "response" : "संदर्भ— JSX is a syntax extension commonly used with React to describe UI elements using JavaScript-like syntax."
+  },
+  {
+    "instruction": "What is React Hook?",
+    "response" : "संदर्भ— A React Hook is a function that lets components use features such as state and lifecycle-related behavior."
+  },
+  {
+    "instruction": "What is a JavaScript module?",
+    "response" : "संदर्भ— A JavaScript module is a reusable unit of code with its own scope that can export and import functionality."
+  },
+  {
+    "instruction": "What is TypeScript interface?",
+    "response" : "संदर्भ— A TypeScript interface describes the expected shape of an object or other value at compile time."
+  },
+  {
+    "instruction": "What is a programming paradigm?",
+    "response" : "संदर्भ— A programming paradigm is a style or conceptual approach to structuring and writing programs."
+  },
+  {
+    "instruction": "What is declarative programming?",
+    "response" : "संदर्भ— Declarative programming describes what result is desired rather than specifying every step needed to produce it."
+  },
+  {
+    "instruction": "What is imperative programming?",
+    "response" : "संदर्भ— Imperative programming describes a sequence of commands that change program state."
+  },
+  {
+    "instruction": "What is functional composition?",
+    "response" : "संदर्भ— Functional composition combines functions so the output of one function becomes the input of another."
+  },
+  {
+    "instruction": "What is immutability?",
+    "response" : "संदर्भ— Immutability means that a value or data structure is not changed after it is created."
+  },
+  {
+    "instruction": "What is a pure function?",
+    "response" : "संदर्भ— A pure function produces the same output for the same inputs and has no observable side effects."
+  },
+  {
+    "instruction": "What is dependency inversion?",
+    "response" : "संदर्भ— Dependency inversion is a design principle that encourages high-level code to depend on abstractions rather than concrete implementations."
+  },
+  {
+    "instruction": "What is the SOLID principle?",
+    "response" : "संदर्भ— SOLID is a group of object-oriented design principles intended to improve maintainability and flexibility."
+  },
+  {
+    "instruction": "What is design pattern?",
+    "response" : "संदर्भ— A design pattern is a reusable general solution to a recurring software design problem."
+  },
+  {
+    "instruction": "What is Singleton pattern?",
+    "response" : "संदर्भ— The Singleton pattern restricts a class to a single shared instance within a given context."
+  },
+  {
+    "instruction": "What is Factory pattern?",
+    "response" : "संदर्भ— The Factory pattern provides an approach for creating objects without requiring calling code to specify their concrete classes directly."
+  },
+  {
+    "instruction": "What is Observer pattern?",
+    "response" : "संदर्भ— The Observer pattern allows one object to notify dependent objects when its state changes."
+  },
+  {
+    "instruction": "What is dependency graph?",
+    "response" : "संदर्भ— A dependency graph represents relationships showing which components depend on other components."
+  },
+  {
+    "instruction": "What is modularity?",
+    "response" : "संदर्भ— Modularity divides software into relatively independent components with well-defined responsibilities."
+  },
+  {
+    "instruction": "What is cohesion?",
+    "response" : "संदर्भ— Cohesion describes how closely related the responsibilities within a software module are."
+  },
+  {
+    "instruction": "What is coupling?",
+    "response" : "संदर्भ— Coupling describes the degree of dependency between software modules or components."
+  },
+  {
+    "instruction": "What is maintainability?",
+    "response" : "संदर्भ— Maintainability is the ease with which software can be understood, modified, tested, and repaired."
+  },
+  {
+    "instruction": "What is portability?",
+    "response" : "संदर्भ— Portability is the ability of software to operate across different environments with limited modification."
+  },
+  {
+    "instruction": "What is interoperability?",
+    "response" : "संदर्भ— Interoperability is the ability of different systems or components to exchange and use information effectively."
+  },
+  {
+    "instruction": "What is compatibility?",
+    "response" : "संदर्भ— Compatibility is the ability of software or systems to operate correctly with other software, hardware, or environments."
+  },
+  {
+    "instruction": "What is backward compatibility?",
+    "response" : "संदर्भ— Backward compatibility means a newer version continues to work with older interfaces, data, or systems."
+  },
+  {
+    "instruction": "What is technical documentation?",
+    "response" : "संदर्भ— Technical documentation explains how a technical system works, is configured, used, or maintained."
+  },
+  {
+    "instruction": "What is an API specification?",
+    "response" : "संदर्भ— An API specification formally describes available endpoints, inputs, outputs, authentication, and other API behavior."
+  },
+  {
+    "instruction": "What is OpenAPI?",
+    "response" : "संदर्भ— OpenAPI is a standard for describing HTTP APIs in a machine-readable format."
+  },
+  {
+    "instruction": "What is Swagger?",
+    "response" : "संदर्भ— Swagger is a collection of tools commonly used for designing, documenting, and interacting with APIs described using OpenAPI."
+  },
+  {
+    "instruction": "What is API documentation?",
+    "response" : "संदर्भ— API documentation explains how developers can authenticate, construct requests, and interpret API responses."
+  },
+  {
+    "instruction": "What is software documentation generation?",
+    "response" : "संदर्भ— Documentation generation uses tools to create reference documentation from source code, specifications, or structured metadata."
+  },
+  {
+    "instruction": "What is an SDK client?",
+    "response" : "संदर्भ— An SDK client provides programmatic methods that simplify communication with a particular service or API."
+  },
+  {
+    "instruction": "What is a software framework ecosystem?",
+    "response" : "संदर्भ— A framework ecosystem includes the libraries, tools, plugins, conventions, and communities surrounding a software framework."
+  },
+  {
+    "instruction": "What is developer experience?",
+    "response" : "संदर्भ— Developer experience describes how effectively and easily developers can build, test, deploy, and maintain software using a platform or tool."
+  },
+  {
+    "instruction": "What is technical support?",
+    "response" : "संदर्भ— Technical support helps users diagnose and resolve problems with software, hardware, or technical services."
+  },
+  {
+    "instruction": "What is troubleshooting?",
+    "response" : "संदर्भ— Troubleshooting is the systematic process of identifying the cause of a problem and applying corrective actions."
+  },
+  {
+    "instruction": "What is root cause analysis?",
+    "response" : "संदर्भ— Root cause analysis seeks to identify the underlying reason a problem occurred rather than only addressing its symptoms."
+  },
+  {
+    "instruction": "What is incident management?",
+    "response" : "संदर्भ— Incident management coordinates the detection, response, resolution, and recovery of service disruptions."
+  },
+  {
+    "instruction": "What is an incident?",
+    "response" : "संदर्भ— A technical incident is an event that causes or may cause disruption, degradation, or failure of a service."
+  },
+  {
+    "instruction": "What is an SLA?",
+    "response" : "संदर्भ— An SLA is a service-level agreement that defines expected service performance and responsibilities between parties."
+  },
+  {
+    "instruction": "What is an SLO?",
+    "response" : "संदर्भ— An SLO is a service-level objective that defines a target level of service reliability or performance."
+  },
+  {
+    "instruction": "What is an SLI?",
+    "response" : "संदर्भ— An SLI is a service-level indicator that measures a specific aspect of service performance or reliability."
+  },
+  {
+    "instruction": "What is uptime?",
+    "response" : "संदर्भ— Uptime is the amount or percentage of time that a system remains operational and accessible."
+  },
+  {
+    "instruction": "What is downtime?",
+    "response" : "संदर्भ— Downtime is a period during which a system or service is unavailable or unusable."
+  },
+  {
+    "instruction": "What is a service dependency?",
+    "response" : "संदर्भ— A service dependency is an external or internal service that an application relies on to function."
+  },
+  {
+    "instruction": "What is graceful degradation?",
+    "response" : "संदर्भ— Graceful degradation allows a system to continue providing reduced functionality when some components or resources fail."
+  },
+  {
+    "instruction": "What is disaster resilience?",
+    "response" : "संदर्भ— Disaster resilience is the ability of a system or organization to withstand disruption and recover effectively."
+  },
+  {
+    "instruction": "What is business continuity?",
+    "response" : "संदर्भ— Business continuity involves preparing an organization to maintain critical operations during and after disruptions."
+  },
+  {
+    "instruction": "What is a recovery point objective?",
+    "response" : "संदर्भ— A recovery point objective defines the maximum acceptable amount of data loss measured in time."
+  },
+  {
+    "instruction": "What is a recovery time objective?",
+    "response" : "संदर्भ— A recovery time objective defines the target maximum time for restoring a service after disruption."
+  },
+  {
+    "instruction": "What is system architecture?",
+    "response" : "संदर्भ— System architecture describes the major structural components of a system and how they interact."
+  },
+  {
+    "instruction": "What is enterprise architecture?",
+    "response" : "संदर्भ— Enterprise architecture organizes an organization's business capabilities, information, applications, and technology."
+  },
+  {
+    "instruction": "What is solution architecture?",
+    "response" : "संदर्भ— Solution architecture defines the technical structure and design of a solution intended to meet specific requirements."
+  },
+  {
+    "instruction": "What is a technical specification?",
+    "response" : "संदर्भ— A technical specification describes the detailed technical requirements and behavior of a system or component."
+  },
+  {
+    "instruction": "What is a functional requirement?",
+    "response" : "संदर्भ— A functional requirement describes something a system must do or a capability it must provide."
+  },
+  {
+    "instruction": "What is a non-functional requirement?",
+    "response" : "संदर्भ— A non-functional requirement describes qualities or constraints such as performance, security, scalability, or usability."
+  },
+  {
+    "instruction": "What is system design?",
+    "response" : "संदर्भ— System design defines how software components, data, interfaces, and infrastructure work together to satisfy requirements."
+  },
+  {
+    "instruction": "What is low-level design?",
+    "response" : "संदर्भ— Low-level design describes detailed implementation structures such as classes, methods, data structures, and interactions."
+  },
+  {
+    "instruction": "What is high-level design?",
+    "response" : "संदर्भ— High-level design describes the major components and interactions of a software system without focusing on implementation details."
+  },
+  {
+    "instruction": "What is a component?",
+    "response" : "संदर्भ— A component is a distinct part of a software or hardware system that performs a defined role."
+  },
+  {
+    "instruction": "What is a service?",
+    "response" : "संदर्भ— A service is a software component that provides a specific capability to other components or users."
+  },
+  {
+    "instruction": "What is a protocol?",
+    "response" : "संदर्भ— A protocol is a set of rules that defines how systems communicate or exchange information."
+  },
+  {
+    "instruction": "What is a standard?",
+    "response" : "संदर्भ— A standard is an agreed specification or set of practices intended to promote consistency and interoperability."
+  },
+  {
+    "instruction": "What is interoperability testing?",
+    "response" : "संदर्भ— Interoperability testing verifies that different systems or components can communicate and work together correctly."
+  },
+  {
+    "instruction": "What is compliance?",
+    "response" : "संदर्भ— Compliance means meeting applicable laws, regulations, standards, policies, or contractual requirements."
+  },
+  {
+    "instruction": "What is governance?",
+    "response" : "संदर्भ— Governance defines decision-making structures, policies, responsibilities, and controls for an organization or system."
+  },
+  {
+    "instruction": "What is audit logging?",
+    "response" : "संदर्भ— Audit logging records security-relevant or business-relevant activities so they can be reviewed later."
+  },
+  {
+    "instruction": "What is data lineage?",
+    "response" : "संदर्भ— Data lineage describes where data originates, how it changes, and where it moves through a system."
+  },
+  {
+    "instruction": "What is metadata?",
+    "response" : "संदर्भ— Metadata is information that describes other data, such as its type, origin, structure, or creation time."
+  },
+  {
+    "instruction": "What is data quality?",
+    "response" : "संदर्भ— Data quality describes how accurate, complete, consistent, timely, and suitable data is for its intended use."
+  },
+  {
+    "instruction": "What is data validation?",
+    "response" : "संदर्भ— Data validation checks whether data conforms to expected rules, formats, ranges, or constraints."
+  },
+  {
+    "instruction": "What is data cleansing?",
+    "response" : "संदर्भ— Data cleansing identifies and corrects inaccurate, incomplete, duplicated, or inconsistent data."
+  },
+  {
+    "instruction": "What is data transformation?",
+    "response" : "संदर्भ— Data transformation changes data into a format or structure suitable for a particular purpose."
+  },
+  {
+    "instruction": "What is machine learning inference?",
+    "response" : "संदर्भ— Machine learning inference is the process of using a trained model to produce predictions from new inputs."
+  },
+  {
+    "instruction": "What is model evaluation?",
+    "response" : "संदर्भ— Model evaluation measures how well a machine-learning model performs using appropriate data and metrics."
+  },
+  {
+    "instruction": "What is model validation?",
+    "response" : "संदर्भ— Model validation evaluates model behavior during development to help select configurations and detect problems."
+  },
+  {
+    "instruction": "What is cross-validation?",
+    "response" : "संदर्भ— Cross-validation repeatedly splits data into training and evaluation portions to estimate model performance."
+  },
+  {
+    "instruction": "What is feature engineering?",
+    "response" : "संदर्भ— Feature engineering creates or transforms input variables to make them more useful for machine-learning models."
+  },
+  {
+    "instruction": "What is a feature in machine learning?",
+    "response" : "संदर्भ— A feature is an input variable or measurable characteristic used by a machine-learning model."
+  },
+  {
+    "instruction": "What is a label in machine learning?",
+    "response" : "संदर्भ— A label is the target value associated with a training example in supervised learning."
+  },
+  {
+    "instruction": "What is a model parameter?",
+    "response" : "संदर्भ— A model parameter is a value learned from training data that influences the model's predictions."
+  },
+  {
+    "instruction": "What is a hyperparameter?",
+    "response" : "संदर्भ— A hyperparameter is a configuration value selected before or during training rather than learned directly as a model parameter."
+  },
+  {
+    "instruction": "What is transfer learning?",
+    "response" : "संदर्भ— Transfer learning reuses knowledge learned from one task or dataset to help solve another related task."
+  },
+  {
+    "instruction": "What is fine-tuning an LLM?",
+    "response" : "संदर्भ— Fine-tuning an LLM further trains a pretrained language model on task-specific or domain-specific examples."
+  },
+  {
+    "instruction": "What is prompt engineering?",
+    "response" : "संदर्भ— Prompt engineering is the practice of designing and refining instructions to guide an AI model toward useful outputs."
+  },
+  {
+    "instruction": "What is zero-shot learning?",
+    "response" : "संदर्भ— Zero-shot learning involves performing a task without providing task-specific examples in the immediate input."
+  },
+  {
+    "instruction": "What is few-shot learning?",
+    "response" : "संदर्भ— Few-shot learning provides a small number of examples to guide a model on a task."
+  },
+  {
+    "instruction": "What is hallucination in AI?",
+    "response" : "संदर्भ— An AI hallucination is an output that presents incorrect or unsupported information as though it were factual."
+  },
+  {
+    "instruction": "What is model bias?",
+    "response" : "संदर्भ— Model bias can refer to systematic tendencies in a model that cause it to produce consistently skewed predictions or outputs."
+  },
+  {
+    "instruction": "What is AI alignment?",
+    "response" : "संदर्भ— AI alignment concerns designing AI systems so their behavior is consistent with intended goals, values, and constraints."
+  },
+  {
+    "instruction": "What is responsible AI?",
+    "response" : "संदर्भ— Responsible AI refers to developing and deploying AI with attention to safety, fairness, transparency, privacy, and accountability."
+  },
+  {
+    "instruction": "What is explainable AI?",
+    "response" : "संदर्भ— Explainable AI focuses on making model behavior or predictions understandable to people."
+  },
+  {
+    "instruction": "What is model interpretability?",
+    "response" : "संदर्भ— Model interpretability describes how readily people can understand the reasoning or behavior of a model."
+  },
+  {
+    "instruction": "What is synthetic data?",
+    "response" : "संदर्भ— Synthetic data is artificially generated data designed to resemble characteristics of real-world data."
+  },
+  {
+    "instruction": "What is data augmentation?",
+    "response" : "संदर्भ— Data augmentation creates additional training examples by applying transformations to existing data."
+  },
+  {
+    "instruction": "What is multimodal AI?",
+    "response" : "संदर्भ— Multimodal AI can process or generate information across multiple modalities such as text, images, audio, or video."
+  },
+  {
+    "instruction": "What is an AI agent?",
+    "response" : "संदर्भ— An AI agent is a system that can perceive information, make decisions, and take actions toward a goal."
+  },
+  {
+    "instruction": "What is tool calling in AI?",
+    "response" : "संदर्भ— Tool calling allows an AI model to request the execution of external functions or services."
+  },
+  {
+    "instruction": "What is an AI workflow?",
+    "response" : "संदर्भ— An AI workflow is a sequence of steps that uses AI models and potentially other tools to accomplish a task."
+  },
+  {
+    "instruction": "What is retrieval?",
+    "response" : "संदर्भ— Retrieval is the process of finding relevant information from a collection of stored data."
+  },
+  {
+    "instruction": "What is semantic search?",
+    "response" : "संदर्भ— Semantic search retrieves information based on meaning and conceptual similarity rather than only exact keyword matches."
+  },
+  {
+    "instruction": "What is keyword search?",
+    "response" : "संदर्भ— Keyword search finds information based primarily on matching terms in documents or indexed content."
+  },
+  {
+    "instruction": "What is a search index?",
+    "response" : "संदर्भ— A search index is a data structure that helps a search system quickly locate relevant content."
+  },
+  {
+    "instruction": "What is a knowledge base?",
+    "response" : "संदर्भ— A knowledge base is an organized collection of information used to answer questions or support decision-making."
+  },
+  {
+    "instruction": "What is a vector embedding?",
+    "response" : "संदर्भ— A vector embedding represents information as numerical values so computational systems can compare semantic relationships."
+  },
+  {
+    "instruction": "What is cosine similarity?",
+    "response" : "संदर्भ— Cosine similarity measures the similarity between two vectors based on the cosine of the angle between them."
+  },
+  {
+    "instruction": "What is a language model?",
+    "response" : "संदर्भ— A language model is a computational model that learns patterns in language and can assign probabilities or generate text."
+  },
+  {
+    "instruction": "What is tokenization?",
+    "response" : "संदर्भ— Tokenization divides text into smaller units called tokens for processing by a language model."
+  },
+  {
+    "instruction": "What is a tokenizer?",
+    "response" : "संदर्भ— A tokenizer converts text into tokens that a language model can process."
+  },
+  {
+    "instruction": "What is context window?",
+    "response" : "संदर्भ— A context window is the amount of input and output information a language model can handle within a single interaction."
+  },
+  {
+    "instruction": "What is temperature in language models?",
+    "response" : "संदर्भ— Temperature is a generation setting that influences the randomness of token selection in some language models."
+  },
+  {
+    "instruction": "What is deterministic generation?",
+    "response" : "संदर्भ— Deterministic generation produces the same output under the same conditions and settings when the system is deterministic."
+  },
+  {
+    "instruction": "What is sampling in AI text generation?",
+    "response" : "संदर्भ— Sampling selects tokens from a probability distribution to generate model output."
+  },
+  {
+    "instruction": "What is top-k sampling?",
+    "response" : "संदर्भ— Top-k sampling restricts token selection to the k most probable candidate tokens."
+  },
+  {
+    "instruction": "What is top-p sampling?",
+    "response" : "संदर्भ— Top-p sampling selects from the smallest set of tokens whose cumulative probability exceeds a specified threshold."
+  },
+  {
+    "instruction": "What is beam search?",
+    "response" : "संदर्भ— Beam search explores multiple candidate sequences and retains the most promising ones during generation."
+  },
+  {
+    "instruction": "What is text generation?",
+    "response" : "संदर्भ— Text generation is the process of producing written language automatically from a model or system."
+  },
+  {
+    "instruction": "What is text classification?",
+    "response" : "संदर्भ— Text classification assigns text to predefined categories based on its content."
+  },
+  {
+    "instruction": "What is sentiment analysis?",
+    "response" : "संदर्भ— Sentiment analysis identifies the emotional tone or polarity expressed in text."
+  },
+  {
+    "instruction": "What is named entity recognition?",
+    "response" : "संदर्भ— Named entity recognition identifies entities such as people, organizations, locations, and dates in text."
+  },
+  {
+    "instruction": "What is machine translation?",
+    "response" : "संदर्भ— Machine translation automatically converts text or speech from one language into another."
+  },
+  {
+    "instruction": "What is summarization?",
+    "response" : "संदर्भ— Summarization produces a shorter representation of longer content while preserving important information."
+  },
+  {
+    "instruction": "What is question answering?",
+    "response" : "संदर्भ— Question answering is the task of producing answers to questions based on provided or retrieved information."
+  },
+  {
+    "instruction": "What is text generation model evaluation?",
+    "response" : "संदर्भ— Text generation evaluation measures qualities such as correctness, relevance, fluency, and usefulness of generated outputs."
+  },
+  {
+    "instruction": "What is an AI benchmark?",
+    "response" : "संदर्भ— An AI benchmark is a standardized task or dataset used to compare the performance of AI systems."
+  },
+  {
+    "instruction": "What is a confusion matrix?",
+    "response" : "संदर्भ— A confusion matrix summarizes classification predictions by showing counts of correct and incorrect results for each class."
+  },
+  {
+    "instruction": "What is ROC curve?",
+    "response" : "संदर्भ— An ROC curve shows the relationship between true-positive and false-positive rates across classification thresholds."
+  },
+  {
+    "instruction": "What is AUC?",
+    "response" : "संदर्भ— AUC is the area under a curve, commonly used as a summary measure for an ROC curve."
+  },
+  {
+    "instruction": "What is precision-recall tradeoff?",
+    "response" : "संदर्भ— The precision-recall tradeoff describes how changing a classification threshold can improve one metric while reducing the other."
+  },
+  {
+    "instruction": "What is model calibration?",
+    "response" : "संदर्भ— Model calibration describes how well predicted probabilities correspond to observed outcome frequencies."
+  },
+  {
+    "instruction": "What is data drift?",
+    "response" : "संदर्भ— Data drift occurs when the statistical characteristics of input data change over time."
+  },
+  {
+    "instruction": "What is concept drift?",
+    "response" : "संदर्भ— Concept drift occurs when the relationship between inputs and target outcomes changes over time."
+  },
+  {
+    "instruction": "What is model monitoring?",
+    "response" : "संदर्भ— Model monitoring tracks model performance, inputs, outputs, and operational behavior after deployment."
+  },
+  {
+    "instruction": "What is machine learning operations?",
+    "response" : "संदर्भ— Machine learning operations, or MLOps, applies engineering and operational practices to developing and maintaining machine-learning systems."
+  },
+  {
+    "instruction": "What is an ML pipeline?",
+    "response" : "संदर्भ— An ML pipeline is an automated sequence of steps for tasks such as data preparation, training, evaluation, and deployment."
+  },
+  {
+    "instruction": "What is model serving?",
+    "response" : "संदर्भ— Model serving makes a trained machine-learning model available for inference requests."
+  },
+  {
+    "instruction": "What is batch inference?",
+    "response" : "संदर्भ— Batch inference processes many inputs together rather than serving predictions one request at a time."
+  },
+  {
+    "instruction": "What is real-time inference?",
+    "response" : "संदर्भ— Real-time inference generates model predictions in response to individual requests with low latency."
+  },
+  {
+    "instruction": "What is an inference API?",
+    "response" : "संदर्भ— An inference API provides a network interface through which applications can send inputs to a trained model and receive predictions."
+  },
+  {
+    "instruction": "What is model deployment?",
+    "response" : "संदर्भ— Model deployment is the process of making a trained machine-learning model available for use."
+  },
+  {
+    "instruction": "What is model versioning?",
+    "response" : "संदर्भ— Model versioning tracks different versions of trained models and their associated configurations or artifacts."
+  },
+  {
+    "instruction": "What is a model registry?",
+    "response" : "संदर्भ— A model registry stores and manages versions, metadata, and lifecycle information for machine-learning models."
+  },
+  {
+    "instruction": "What is experiment tracking?",
+    "response" : "संदर्भ— Experiment tracking records parameters, metrics, datasets, and artifacts from machine-learning experiments."
+  },
+  {
+    "instruction": "What is reproducibility?",
+    "response" : "संदर्भ— Reproducibility is the ability to obtain consistent results by repeating an analysis or computational process under the same conditions."
+  },
+  {
+    "instruction": "What is a random seed?",
+    "response" : "संदर्भ— A random seed initializes a pseudorandom number generator so sequences can be reproduced under controlled conditions."
+  },
+  {
+    "instruction": "What is a dataset?",
+    "response" : "संदर्भ— A dataset is an organized collection of data used for analysis, training, testing, or other purposes."
+  },
+  {
+    "instruction": "What is structured data?",
+    "response" : "संदर्भ— Structured data is organized according to a predefined format or schema, such as rows and columns."
+  },
+  {
+    "instruction": "What is unstructured data?",
+    "response" : "संदर्भ— Unstructured data does not follow a fixed tabular structure and can include text, images, audio, and video."
+  },
+  {
+    "instruction": "What is semi-structured data?",
+    "response" : "संदर्भ— Semi-structured data has some organizational structure but does not conform completely to a rigid relational schema."
+  },
+  {
+    "instruction": "What is a CSV file?",
+    "response" : "संदर्भ— A CSV file stores tabular data as text, typically using delimiters such as commas between fields."
+  },
+  {
+    "instruction": "What is a data pipeline?",
+    "response" : "संदर्भ— A data pipeline is a sequence of processes that moves and transforms data between sources and destinations."
+  },
+  {
+    "instruction": "What is stream processing?",
+    "response" : "संदर्भ— Stream processing handles data continuously as it arrives rather than waiting for a complete batch."
+  },
+  {
+    "instruction": "What is batch processing?",
+    "response" : "संदर्भ— Batch processing collects data or tasks and processes them together at scheduled or selected times."
+  },
+  {
+    "instruction": "What is real-time processing?",
+    "response" : "संदर्भ— Real-time processing handles data with sufficiently low delay for applications that require timely responses."
+  },
+  {
+    "instruction": "What is Apache Kafka?",
+    "response" : "संदर्भ— Apache Kafka is a distributed platform for publishing, storing, and processing streams of events."
+  },
+  {
+    "instruction": "What is Apache Spark?",
+    "response" : "संदर्भ— Apache Spark is a distributed computing engine designed for large-scale data processing and analytics."
+  },
+  {
+    "instruction": "What is Apache Airflow?",
+    "response" : "संदर्भ— Apache Airflow is a platform for authoring, scheduling, and monitoring workflows programmatically."
+  },
+  {
+    "instruction": "What is data orchestration?",
+    "response" : "संदर्भ— Data orchestration coordinates data workflows, dependencies, transformations, and execution schedules."
+  },
+  {
+    "instruction": "What is a data catalog?",
+    "response" : "संदर्भ— A data catalog organizes metadata about available datasets so users can discover and understand them."
+  },
+  {
+    "instruction": "What is master data management?",
+    "response" : "संदर्भ— Master data management establishes consistent definitions and records for important business entities across systems."
+  },
+  {
+    "instruction": "What is a data model?",
+    "response" : "संदर्भ— A data model defines how data is structured, related, and represented within a system."
+  },
+  {
+    "instruction": "What is an entity relationship diagram?",
+    "response" : "संदर्भ— An entity relationship diagram visually represents entities, their attributes, and relationships in a data model."
+  },
+  {
+    "instruction": "What is a schema migration?",
+    "response" : "संदर्भ— A schema migration changes the structure of a database in a controlled and trackable way."
+  },
+  {
+    "instruction": "What is database connection pooling?",
+    "response" : "संदर्भ— Database connection pooling maintains reusable database connections to reduce the overhead of repeatedly opening new connections."
+  },
+  {
+    "instruction": "What is a cache invalidation?",
+    "response" : "संदर्भ— Cache invalidation removes or updates cached data when the underlying source data changes."
+  },
+  {
+    "instruction": "What is cache eviction?",
+    "response" : "संदर्भ— Cache eviction removes entries from a cache according to a policy such as least recently used."
+  },
+  {
+    "instruction": "What is distributed caching?",
+    "response" : "संदर्भ— Distributed caching stores cached data across multiple nodes so applications can access shared cached information."
+  },
+  {
+    "instruction": "What is a CDN cache?",
+    "response" : "संदर्भ— A CDN cache stores copies of content at edge locations closer to users to reduce latency."
+  },
+  {
+    "instruction": "What is DNS caching?",
+    "response" : "संदर्भ— DNS caching temporarily stores domain-name resolution results to reduce repeated lookup requests."
+  },
+  {
+    "instruction": "What is HTTP caching?",
+    "response" : "संदर्भ— HTTP caching allows clients and intermediaries to reuse previously retrieved responses when permitted by caching rules."
+  },
+  {
+    "instruction": "What is browser rendering?",
+    "response" : "संदर्भ— Browser rendering is the process of converting web resources into the visual and interactive page displayed to"
+  }
+
+ ]
