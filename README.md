@@ -1,4 +1,4 @@
-# ModelGPT
+# ModelSLF
 
 Three independent projects in one workspace, spanning LLM fine-tuning,
 model-interpreter tooling, and backend API engineering.
@@ -12,7 +12,7 @@ model-interpreter tooling, and backend API engineering.
 ## Layout
 
 ```
-ModelGPT/
+ModelSLF/
 ├── .gitignore              unified ignore rules for all three projects
 ├── README.md               this file
 ├── SUMMARY.md              three-paragraph summary of each project

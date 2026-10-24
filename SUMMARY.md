@@ -1,4 +1,4 @@
-# ModelGPT — Project Summaries
+# ModelSLF — Project Summaries
 
 Three independent projects in one workspace: LLM fine-tuning, a GPT-2
 visualization app, and a Spring Boot API practice project.

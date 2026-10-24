@@ -1,5 +1,5 @@
 # ============================================================================
-# ModelGPT — single .gitignore for all three projects
+# ModelSLF — single .gitignore for all three projects
 #   Finetuning/           Python / Colab / Ollama
 #   GPT2_Local/           Python (FastAPI) + Node (React/Vite)
 #   springboot-practice/  Java 17 / Maven / Spring Boot
