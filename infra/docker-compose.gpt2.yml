@@ -1,6 +1,6 @@
 # Full stack: FastAPI backend + nginx-served frontend.
 #
-#   docker compose up --build
+#   docker compose -f infra/docker-compose.gpt2.yml up --build
 #
 # The frontend image proxies /api to the backend (see frontend/nginx.conf), so
 # the browser only ever talks to one origin: no CORS preflight, and the
@@ -9,14 +9,14 @@
 services:
   backend:
     build:
-      context: ./backend
+      context: ../services/gpt2-service
       dockerfile: Dockerfile
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000
     environment:
       # Published OpenAI size to download and load; the architecture config is
       # picked to match. Compose interpolates this from the shell or from a
-      # repo-root `.env` (see `.env.example`), so `docker compose up` honours
-      # the same file the local dev server reads.
+      # `.env` next to this file (see services/gpt2-service/.env.example), so
+      # `docker compose up` honours the same file the local dev server reads.
       GPT2_MODEL_SIZE: ${GPT2_MODEL_SIZE:-124M}
       # Point at a volume-backed cache so the 500 MB checkpoint is fetched once.
       GPT2_CHECKPOINT_DIR: /checkpoints/gpt2
@@ -27,8 +27,8 @@ services:
       GPT2_TEXT_FILE: /corpus/the-verdict.txt
     volumes:
       - checkpoints:/checkpoints
-      # The training corpus lives at the repo root, outside this directory.
-      - ../the-verdict.txt:/corpus/the-verdict.txt:ro
+      # The training corpus ships with the backend service, outside this directory.
+      - ../services/gpt2-service/the-verdict.txt:/corpus/the-verdict.txt:ro
     ports:
       # Exposed for /docs and for debugging with curl. The frontend does not
       # need it — nginx reaches the backend over the compose network.
@@ -44,7 +44,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ../frontend
       dockerfile: Dockerfile
       args:
         # Set to 1 to build a replay-only image with no live mode and no backend

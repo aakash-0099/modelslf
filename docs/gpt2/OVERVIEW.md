@@ -4,15 +4,15 @@ A FastAPI + React app that visualizes the **real** forward pass of a from-scratc
 GPT-2 (124M) implementation, token by token. Nothing in the UI is mocked: every
 number comes from a tensor recorded during an actual forward pass.
 
-> **Demo GIF not yet recorded.** [docs/README.md](docs/README.md) explains how
-> to capture `docs/demo.gif` (short recording of replay mode: pipeline
+> **Demo GIF not yet recorded.** [README.md](README.md) explains how
+> to capture `docs/gpt2/demo.gif` (short recording of replay mode: pipeline
 > animation → attention arcs → logit lens, then `ffmpeg` downscale).
 
 ## Status
 
 | Phase | Scope | State |
 | --- | --- | --- |
-| 1 | `backend/gpt2` pure model package + docs | done |
+| 1 | `services/gpt2-service/gpt2` pure model package + docs | done |
 | 2 | Tracing: `return_trace`, logit lens, PCA reduction, `generate_stream` | done |
 | 3 | Test suite (shape, numeric contract, HF parity) | done |
 | 4 | FastAPI app, training + export scripts, compose | done |
@@ -24,8 +24,7 @@ number comes from a tensor recorded during an actual forward pass.
 ### Docker (recommended)
 
 ```bash
-cd GPT2_Local
-docker compose up --build
+docker compose -f infra/docker-compose.gpt2.yml up --build
 ```
 
 Then open **http://localhost:8080**.
@@ -37,7 +36,7 @@ up, before the backend finishes loading — the exported traces need no model.
 To skip the download and run without the real weights:
 
 ```bash
-GPT2_LOAD_OPENAI_MODEL=0 docker compose up --build
+GPT2_LOAD_OPENAI_MODEL=0 docker compose -f infra/docker-compose.gpt2.yml up --build
 ```
 
 `openai-124m` will be listed with `ready: false` and the UI will say why.
@@ -48,11 +47,11 @@ Which OpenAI checkpoint is downloaded is configurable, and the architecture
 config is selected to match it, so the model and the weights can never disagree:
 
 ```bash
-# local dev: a .env next to docker-compose.yml (or backend/.env) is read by the backend
-echo "GPT2_MODEL_SIZE=355M" >> .env
+# local dev: a .env in services/gpt2-service/ is read by the backend
+echo "GPT2_MODEL_SIZE=355M" >> services/gpt2-service/.env
 
 # docker: compose interpolates that same .env file, or use the shell
-GPT2_MODEL_SIZE=355M docker compose up --build
+GPT2_MODEL_SIZE=355M docker compose -f infra/docker-compose.gpt2.yml up --build
 ```
 
 Valid sizes are `124M` (default), `355M`, `774M` and `1558M`. The registry id
@@ -60,8 +59,8 @@ follows the size — `openai-355m` — and so does the download, which grows fas
 ~500 MB for 124M, ~1.5 GB for 355M, ~3 GB for 774M, ~6 GB for 1558M. Bigger
 models are also slow to run per token; the traces were designed around 124M.
 
-Copy `backend/.env.example` to `backend/.env` (or a `.env` next to
-`docker-compose.yml`) for the full list of backend settings
+Copy `services/gpt2-service/.env.example` to
+`services/gpt2-service/.env` for the full list of backend settings
 (`GPT2_DEVICE`, `GPT2_CHECKPOINT_DIR`, `GPT2_LOAD_OPENAI_MODEL`, ...). Values
 already set in the environment always override what is in the file.
 
@@ -70,7 +69,7 @@ already set in the environment always override what is in the file.
 Two terminals. Backend:
 
 ```bash
-cd GPT2_Local/backend
+cd services/gpt2-service
 python -m venv .venv && source .venv/Scripts/activate   # Windows
 pip install -r requirements.txt
 python -m scripts.export_traces     # optional, enables replay mode
@@ -80,7 +79,7 @@ uvicorn app.main:app --reload --port 8000
 Frontend:
 
 ```bash
-cd GPT2_Local/frontend
+cd frontend
 npm install
 npm run dev            # http://localhost:5173, proxies /api to :8000
 ```
@@ -91,7 +90,7 @@ npm run dev            # http://localhost:5173, proxies /api to :8000
 Verdict*, ~35 s on CPU:
 
 ```bash
-cd GPT2_Local/backend
+cd services/gpt2-service
 python -m scripts.train_small
 ```
 
@@ -106,7 +105,7 @@ Needs the backend. Generates over a WebSocket and streams one traced forward pas
 per token:
 
 ```bash
-docker compose up --build      # or the local dev setup above
+docker compose -f infra/docker-compose.gpt2.yml up --build   # or the local dev setup above
 ```
 
 Open the app, pick **Live**, set a prompt, press **Generate**. Each new token
@@ -119,7 +118,7 @@ Needs **no backend at all** — this is the static-hosting path. Plays the
 pre-recorded traces in `frontend/public/traces/*.json`:
 
 ```bash
-cd GPT2_Local/frontend
+cd frontend
 npm run dev            # Replay is the default mode
 ```
 
@@ -129,7 +128,7 @@ The bundles hold the same `WSStepMessage` payloads the live socket sends, so
 To regenerate them:
 
 ```bash
-cd GPT2_Local/backend
+cd services/gpt2-service
 python -m scripts.export_traces          # writes frontend/public/traces/*.json
 ```
 
@@ -141,7 +140,7 @@ python -m scripts.export_traces          # writes frontend/public/traces/*.json
 ### Building for static hosting
 
 ```bash
-cd GPT2_Local/frontend
+cd frontend
 npm run build:static         # -> dist-static/
 npm run preview:static       # serve it locally at :4173
 ```
@@ -190,7 +189,7 @@ For a subpath deploy (GitHub Pages project sites), set the base path in
                     └──────────────┬──────────┘    └────────────────────┘
                                    │
                     ┌──────────────▼──────────────────────────────┐
-                    │  backend/gpt2 — pure model package           │
+                    │  gpt2-service/gpt2 — pure model package      │
                     │  hand-written attention (no F.sdpa, so the    │
                     │  T×T matrix actually exists to visualize)     │
                     │  forward(return_trace=True) → Trace           │
@@ -201,29 +200,34 @@ Data flows one way: both sources write `WSStepMessage`s into `useTraceStore`, an
 every component reads the store. Neither component knows which mode is active,
 which is why `ModeToggle` is the only place that changes.
 
-Read [docs/architecture.md](docs/architecture.md) for the model and tracing
-detail, and [docs/trace-schema.md](docs/trace-schema.md) for the JSON contract.
+Read [architecture.md](architecture.md) for the model and tracing
+detail, and [trace-schema.md](trace-schema.md) for the JSON contract.
 
 ## Layout
 
 ```
-GPT2_Local/                (original repo name: gpt2-visualizer)
-├── docs/                 architecture.md, trace-schema.md, README.md
-├── notebooks/            the original notebook, untouched
-├── docker-compose.yml    backend + frontend
-├── backend/
-│   ├── gpt2/             pure model package (no web code)
-│   ├── app/              FastAPI: settings, registry, routes
-│   ├── scripts/          train_small.py, export_traces.py
-│   ├── tests/            parity, trace-shape, API route tests
-│   └── checkpoints/      gitignored weights
-└── frontend/
-    ├── src/types/        the JSON contract, mirrored from docs/trace-schema.md
-    ├── src/store/        useTraceStore: steps, current step, selected block/head
-    ├── src/hooks/        useLiveGeneration (WebSocket) and useReplay (bundles)
-    ├── src/components/   Pipeline, BlockDetail, Attention*, LogitLens, TopK, Compare
-    ├── public/traces/    gitignored exported bundles
-    └── Dockerfile        node build -> nginx, proxies /api
+ModelSLF/                 (project: gpt2-visualizer)
+├── docs/
+│   └── gpt2/             OVERVIEW.md, architecture.md, trace-schema.md, README.md
+├── frontend/             React app
+│   ├── src/types/        the JSON contract, mirrored from docs/gpt2/trace-schema.md
+│   ├── src/store/        useTraceStore: steps, current step, selected block/head
+│   ├── src/hooks/        useLiveGeneration (WebSocket) and useReplay (bundles)
+│   ├── src/components/   Pipeline, BlockDetail, Attention*, LogitLens, TopK, Compare
+│   ├── public/traces/    gitignored exported bundles
+│   └── Dockerfile        node build -> nginx, proxies /api
+├── infra/
+│   └── docker-compose.gpt2.yml   backend + frontend
+├── platform-api/         Spring Boot service
+└── services/
+    ├── finetune-service/ Ollama / Colab fine-tuning helpers
+    └── gpt2-service/
+        ├── gpt2/         pure model package (no web code)
+        ├── app/          FastAPI: settings, registry, routes
+        ├── scripts/      train_small.py, export_traces.py
+        ├── tests/        parity, trace-shape, API route tests
+        ├── notebooks/    the original notebook, untouched
+        └── checkpoints/  gitignored weights
 ```
 
 ## Endpoints
@@ -245,14 +249,14 @@ Interactive reference at http://localhost:8000/docs.
 ## Tests
 
 ```bash
-cd GPT2_Local/backend
+cd services/gpt2-service
 pytest                # 168 tests, ~35 s
 pytest -m "not slow"   # 154 tests, ~11 s, no checkpoint needed
 pytest -m slow         # real 124M weights + HuggingFace comparison
 ```
 
 ```bash
-cd GPT2_Local/frontend
+cd frontend
 npm run smoke           # renders the real components against the real traces
 npm run smoke:static    # same, against the static-build module graph
 ```
@@ -261,7 +265,7 @@ npm run smoke:static    # same, against the static-build module graph
 upper triangle is exactly `0.0`, the deepest logit-lens entry equals
 `top_tokens[0]`, sampling candidates sum to 1 within float16 tolerance — then
 renders each component and checks the output. It is not a browser test; see
-[frontend/README.md](frontend/README.md) for what it does and does not cover.
+[frontend/README.md](../../frontend/README.md) for what it does and does not cover.
 
 ## Using the model directly
 
@@ -299,17 +303,19 @@ for step in generate_stream(model, prompt="Every effort moves you",
 
 ## Notes
 
-- **Model size override:** `backend/.env` in this checkout currently pins
-  `GPT2_MODEL_SIZE=1558M` (~6 GB download, slow CPU inference). Delete the file
+- **Model size override:** `services/gpt2-service/.env` in this checkout currently
+  pins `GPT2_MODEL_SIZE=1558M` (~6 GB download, slow CPU inference). Delete the file
   or set `GPT2_MODEL_SIZE=124M` to get the documented default — the traces and
   docs were designed around 124M.
 - **Replay bundles are generated:** `frontend/public/traces/` is gitignored and
   absent after cloning. Run `python -m scripts.export_traces` once before using
   Replay mode or `npm run build:static` (which checks for them).
-- **Folder vs project name:** this directory is `GPT2_Local`, but the project
-  (and its `package.json` name) is `gpt2-visualizer`.
+- **Folder vs project name:** this service lives in `services/gpt2-service`
+  (formerly `GPT2_Local/backend`), but the project (and its `package.json` name)
+  is `gpt2-visualizer`.
 
 ## Source
 
-Derived from the from-scratch implementation in `notebooks/gpt2.ipynb`, itself
+Derived from the from-scratch implementation in
+`services/gpt2-service/notebooks/gpt2.ipynb`, itself
 following *Build a Large Language Model (From Scratch)* by Sebastian Raschka.

@@ -8,7 +8,7 @@ Validation, RFC 7807 `ProblemDetail` errors, JPA auditing, Redis caching with
 **cache-stampede protection**, transactional-outbox-style cache invalidation,
 and Bucket4j rate limiting.
 
-- **Language / build:** Java 17, Maven (wrapper included)
+- **Language / build:** Java 25 (LTS), Maven (wrapper included)
 - **Framework:** Spring Boot 4.1.0
 - **Persistence:** PostgreSQL (Spring Data JPA, `ddl-auto=update`)
 - **Cache:** Redis
@@ -81,7 +81,7 @@ Starts three containers:
 
 | Service | Image | Port |
 | --- | --- | --- |
-| app | multi-stage Maven → JRE 17 | **8081** |
+| app | multi-stage Maven → JRE 25 | **8081** |
 | postgres | `postgres:16` | host **5433** → 5432 |
 | redis | `redis:7` | 6379 |
 

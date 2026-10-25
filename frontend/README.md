@@ -15,7 +15,7 @@ The app works with **no backend running**: replay mode loads the exported bundle
 from `public/traces/*.json`. Live mode needs `uvicorn app.main:app --port 8000`.
 
 > `public/traces/*.json` is gitignored. Run
-> `cd ../backend && python -m scripts.export_traces` once after cloning, or the
+> `cd ../services/gpt2-service && python -m scripts.export_traces` once after cloning, or the
 > replay buttons 404. `build:static` checks for them and says so if missing.
 
 ## Layout
@@ -283,5 +283,5 @@ changes, so the loop never starts.
 to the backend so the browser stays same-origin. Set `VITE_API_BASE` only if the
 API lives on a different origin; leave it empty to use the proxy.
 
-`docker compose build --build-arg STATIC=1` produces the replay-only image
-instead.
+`docker compose -f infra/docker-compose.gpt2.yml build --build-arg STATIC=1`
+produces the replay-only image instead.
