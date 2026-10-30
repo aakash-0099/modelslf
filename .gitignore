@@ -106,3 +106,7 @@ desktop.ini
 *.log
 logs/
 nohup.out
+models/*
+!models/.gitkeep
+!models/manifest.json
+loadtests/**/results/

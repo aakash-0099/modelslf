@@ -21,16 +21,20 @@ and Bucket4j rate limiting.
 springboot-practice/
 ├── pom.xml, mvnw, mvnw.cmd
 ├── Dockerfile, docker-compose.yml        # app + postgres + redis
-└── src/main/java/com/example/usermanagement/
-    ├── UserManagementApplication.java    # @EnableJpaAuditing, @EnableScheduling
-    ├── controller/    AuthController, UserController
-    ├── service/       UserServiceImpl, AuthService, RateLimitService
-    ├── security/      JwtService, JwtAuthenticationFilter, RateLimitFilter, ...
-    ├── cache/         LeaseAwareRedisCache(+Manager), CacheLeaseService,
-    │                  CacheInvalidationOutboxProcessor
-    ├── entity/        User, Role, CacheInvalidationEvent
-    ├── repository/    UserRepository, CacheInvalidationEventRepository
-    ├── dto/, mapper/, exception/, config/
+└── src/main/java/com/modelslf/platform/
+    ├── PlatformApplication.java          # @EnableJpaAuditing, @EnableScheduling
+    ├── auth/
+    │   ├── AuthController, AuthService
+    │   ├── domain/      Role, User, UserRepository
+    │   ├── dto/         LoginRequest, LoginResponse, RegisterRequest, UserResponse
+    │   └── security/    JWT and Spring Security configuration
+    ├── common/
+    │   ├── config/      AuditorAwareImpl, JacksonConfig, OpenApiConfig
+    │   └── exception/   GlobalExceptionHandler and auth/user exceptions
+    ├── cache/           Redis cache and invalidation components
+    ├── controller/      UserController
+    ├── dto/, entity/, mapper/, service/, security/
+    └── tenant/, quota/, llm/, risk/, search/  # placeholder packages
 ```
 
 ## API
