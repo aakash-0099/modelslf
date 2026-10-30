@@ -1,19 +1,13 @@
 package com.modelslf.platform.auth;
 
-import com.modelslf.platform.dto.CreateUserRequest;
-import com.modelslf.platform.auth.dto.UserResponse;
-import com.modelslf.platform.service.UserService;
-import com.modelslf.platform.auth.AuthService;
-import com.modelslf.platform.auth.dto.RegisterRequest;
 import com.modelslf.platform.auth.dto.LoginRequest;
 import com.modelslf.platform.auth.dto.LoginResponse;
+import com.modelslf.platform.auth.dto.RegisterRequest;
+import com.modelslf.platform.auth.dto.UserResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import jakarta.validation.Valid;
-
-import java.net.URI;
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/auth")

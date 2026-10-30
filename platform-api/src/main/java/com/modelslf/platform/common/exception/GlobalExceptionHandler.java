@@ -21,18 +21,6 @@ public class GlobalExceptionHandler {
 	private static final Logger log =
         LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
-    @ExceptionHandler(UserNotFoundException.class)
-    public ProblemDetail handleUserNotFound(UserNotFoundException ex) {
-
-        ProblemDetail problemDetail =
-                ProblemDetail.forStatus(HttpStatus.NOT_FOUND);
-
-        problemDetail.setTitle("User Not Found");
-        problemDetail.setDetail(ex.getMessage());
-
-        return problemDetail;
-    }
-
     @ExceptionHandler(EmailAlreadyExistsException.class)
     public ProblemDetail handleEmailAlreadyExists(
             EmailAlreadyExistsException ex) {
